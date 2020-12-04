@@ -1,0 +1,8 @@
+<catalog type="sound">
+
+	<group name="Memes">
+		<sound file="fornite" name="Fornite Default Dance" anim="Baile 2" duration="6500"/>
+		<sound file="lacancion" name="Pero pusieron la cancion" block="STRIP" anim="STR_B2C" duration="24000" />
+		<sound file="clubpenguin" name="Bailecito del club penguin" anim="dnce_M_c" duration="24000" />
+	</group>
+</catalog>

@@ -1,0 +1,70 @@
+<catalog type="weapon">
+    <group name="Cuerpo a cuerpo">
+		<weapon id="1" name="Escudo Pareman" />
+		<weapon id="5" name="Bandera Chilena" />
+		<weapon id="15" name="Cañeria" />
+		<weapon id="9" name="Taladro Bauker" />
+		<weapon id="2" name="Guitarra" />
+		<weapon id="7" name="Mazo" />
+		<weapon id="8" name="Sable de luz" />
+		<weapon id="4" name="Cuchillo" />
+		<weapon id="3" name="Luma" />
+		<weapon id="6" name="Pala" />
+		<weapon id="14" name="Escoba" />
+		<weapon id="10" name="Nokia Mazo" />
+		<weapon id="11" name="Gaviota de Plata" />
+		<weapon id="12" name="Anticucho" />
+	</group>
+
+	<group name="Pistolas">
+		<weapon id="24" name="Desert eagle" />
+		<weapon id="22" name="Pistol" />
+		<weapon id="23" name="Silenced" />
+	</group>
+
+	<group name="Escopetas">
+		<weapon id="26" name="Sawn-off shotgun" />
+		<weapon id="25" name="Shotgun" />
+		<weapon id="27" name="SPAZ-12" />
+	</group>
+
+	<group name="Sub-fusiles de asalto">
+		<weapon id="29" name="Pistola de Agua" />
+		<weapon id="32" name="TEC-9" />
+		<weapon id="28" name="Uzi" />
+	</group>
+
+	<group name="Fusiles de Asalto">
+		<weapon id="30" name="AK47" />
+		<weapon id="31" name="Pescado" />
+	</group>
+
+	<group name="Rifles">
+		<weapon id="33" name="Country sniper" />
+		<weapon id="34" name="Sniper" />
+	</group>
+
+	<group name="Armas pesadas">
+		<weapon id="37" name="Flame thrower" />
+		<weapon id="36" name="Heat seeking RPG" />
+		<weapon id="38" name="Minigun" />
+		<weapon id="35" name="Rocket launcher" />
+	</group>
+
+	<group name="Proyectiles">
+		<weapon id="16" name="Grenade" />
+		<weapon id="18" name="Molotov Baltica" />
+		<weapon id="39" name="Tarjeta de video Explosiva" />
+		<weapon id="40" name="Detonator" />
+		<weapon id="17" name="Lacrimogena" />
+	</group>
+
+	<group name="Otros">
+		<weapon id="41" name="Raid" />
+		<weapon id="43" name="Camara" />
+		<weapon id="42" name="Extintor" />
+		<weapon id="45" name="Lentes Infrarojos" />
+		<weapon id="44" name="Lentes de vision nocturna" />
+		<weapon id="46" name="Paracaidas" />
+	</group>
+</catalog>
