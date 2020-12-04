@@ -1,7 +1,7 @@
 events[11] = { 
 	name 						= 'PARKOUR #1',
 	maxSlots 					= 20,
-	minSlots 					= 3,
+	minSlots 					= 1,
 	warpPoses = {
 		-- { x, y, z, rot },
 		{ 2214.26758,-2145.39966,757.13440,355.17138671875},

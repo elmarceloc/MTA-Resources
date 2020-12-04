@@ -1,7 +1,7 @@
 events[6] = { 
-	name 						= 'CARRERA #1',	-- The event name
+	name 						= 'RACHA #1',	-- The event name
 	maxSlots 					= 33,				-- The max players for the event
-	minSlots 					= 3,				-- The required amount of players
+	minSlots 					= 1,				-- The required amount of players
 	warpPoses = {									-- Positions players will warp to on start
 		-- { x, y, z, rot },
 		{1812.14075,2259.33911,5.28810,179.99639892578},			
@@ -37,8 +37,14 @@ events[6] = {
 		{1797.54895,2226.24512,4.71471,179.71441650391},			
 		{1804.87207,2219.78223,4.62089,175.68005371094},			
 		{1785.83142,2216.64014,4.56058,176.74420166016},			
-		
-		
+
+	},
+	checkpoints = {
+
+		{400, 1815.14075,2259.33911,5.28810},			
+		{404, 1817.14075,2259.33911,5.28810},			
+		{401, 1827.14075,2259.33911,5.28810},			
+		{518, 1812.14065,2259.33911,5.28810},			
 
 
 	},
@@ -49,7 +55,10 @@ events[6] = {
 	allowedVehicleExit 			= false,			-- Allow players to exit the vehicle
 	allowPositionOffset 		= true,				-- Position offset for warps, used so players don't warp into each other
 	allowLeaveCommand			= true,				-- Enable the player to use /leaveevent
-	onlyOnePersonPerWarp		= true				-- When set to true, only person can spawn at each warp
+	onlyOnePersonPerWarp		= true,				-- When set to true, only person can spawn at each warp
+
+    huds                        = 'race',
+
 }
 
 
@@ -71,6 +80,8 @@ function StartRace1 ( )
 			end
 		end
 	end )
+
+	sendCheckpoints(6)
 	
 	return true
 end
