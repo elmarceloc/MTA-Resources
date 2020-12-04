@@ -31,10 +31,8 @@
 			<skin id="36" name="Pancho Saavedra" keywords="ryder,robber,male,grove,street,black"/>
 			<skin id="37" name="Sebastian Piñera" keywords="emmet,male,old,black,guns,weapon,dealer"/>
 			<skin id="43" name="Tio Aceite" keywords="emmet,male,old,black,guns,weapon,dealer"/>
-			<skin id="44" name="Repartidor de Telepizza" keywords="andre,white,male"/>
 			<skin id="45" name="Arturo Vidal" keywords="kendl,johnson,black,female"/>
 			<skin id="46" name="Nico Gavilan" keywords="jethro,male,white,mechanic"/>
-			<skin id="48" name="Salfate" keywords="t,bone,mendez,t-bone,latin,male"/>
 			<skin id="49" name="Chupacabras" keywords="sindaco,italian,male,white"/>
 			<skin id="50" name="Pisco a lo Macho" keywords="janitor,casino,male,latin"/>
 			<skin id="57" name="Don Francisco" keywords="big,bear,druggie,grove,sreet"/>
@@ -80,7 +78,6 @@
 		    <skin id="213" name="Moai Gr" keywords="king,rock,guy,male"/>
 		    <skin id="187" name="Engañao pa Chillan" keywords="suit,formal,asian,oriental,pinstripe,business,guy,male"/>
 		    <skin id="204" name="Lad Cobra" keywords="martial,fighter,beard,mustache"/>
-		    <skin id="236" name="Gary Medel" keywords="plaid,checker,mustache,bald,elderly,guy,male"/>
 			<skin id="280" name="Carabinero 1" keywords="jethro,male,white,mechanic"/>
 			<skin id="281" name="Carabinero 2" keywords="jethro,male,white,mechanic"/>
 			<skin id="190" name="Carabinera" keywords="girlfriend,date,cop,police,officer,girl,woman,black"/>
@@ -145,7 +142,6 @@
 		<skin id="227" name="Tay (Digimon)" keywords="suit,formal,asian,oriental,bald,business,guy,male"/>
 		<skin id="188" name="Esqueleto Loquendero" keywords="logo,white,guy,male"/>
 		<skin id="203" name="Itachi (Naruto)" keywords="martial,fighter,barefoot,guy,male"/>
-		<skin id="202" name="Spetsnaz" keywords="fleischberg,alchohol,hat,baseball,andreas,mustache,beard,guy,male,white"/>
 		<skin id="210" name="Pie Grande" keywords="stripes,shirt,untucked,oriental,asian,chinese,guy,male"/>
 		<skin id="112" name="Jason" keywords="mob,mafia,leather,jacket,white,guy,male,bald,gang,member,mustache,assassin"/>
 		<skin id="118" name="Leatherface" keywords="asian,chinese,oriental,yakuza,suit,gang,member,mountain,cloud,gecko,tong,guy,male"/>
