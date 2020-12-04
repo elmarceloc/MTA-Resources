@@ -3,6 +3,9 @@
 	<script src="event-server.lua" type="server" />
 	<script src="event-client.lua" type="client" />
 	
+	<script src="Sistemas/br/client.lua" type="client" />
+	<script src="Sistemas/br/server.lua" type="server" />
+
 	<script src="Eventos/Ev1/Eve1_s.lua" type="server" />
 	<map src="Eventos/Ev1/Eve1_Map.map" dimension="2"></map>
 	
@@ -34,7 +37,12 @@
 	<script src="Eventos/Ev12/Eve12_s.lua" type="server" />
 	<map src="Eventos/Ev12/Eve12_Map.map" dimension="2"></map>		
 
-	
+	<script src="Eventos/Ev13/Ev13_s.lua" type="server" />
+
+	<file src="assets/wood.png" />
+	<file src="assets/time.png" />
+	<file src="assets/kart.ttf" />
+
 		
 	<export function="isPlayerInEvent"  />
 	<export function="getEventInfo"  />

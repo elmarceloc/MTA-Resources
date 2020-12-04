@@ -54,7 +54,7 @@ function EventCore.StartEvent(id)
                                     0.65, "hight", 255, 255, 0, 255, 2, "right",
                                     "bottom", 2)
     textDisplayAddText(text_, text)
-    local timer = setTimer(EventCore.BeginTheEvent, 60000, 1)
+    local timer = setTimer(EventCore.BeginTheEvent, 5000, 1)
 
     local dim = 2
 
@@ -74,7 +74,8 @@ function EventCore.StartEvent(id)
         allowedVehicleExit = events[id].allowedVehicleExit,
         allowLeaveCommand = events[id].allowLeaveCommand,
         onlyOnePersonPerWarp = events[id].onlyOnePersonPerWarp,
-        originalPlayerCount = 0
+        originalPlayerCount = 0,
+        huds = events[id].huds,
     }
 
     if (eventInfo.onlyOnePersonPerWarp) then
@@ -104,19 +105,19 @@ function EventCore.StartEvent(id)
     exports.Scripts_Dxmessages:outputDx(getRootElement(),
                                         "El minijuego " ..
 										name ..
-                                            " fue iniciado,\n use /ir para entrar",
+                                            "\n fue iniciado, use /ir para entrar",
                                         0, 255, 0)
     setTimer(infoev, 35000, 1)
     addCommandHandler("ir", EventCore.PlayerJoinEventCommand)
 	triggerEvent("NGEvents:onEventCreated", resourceRoot, eventInfo)
 	
-	exports.api.discord('Minijuego **'.. name .. '** comensará en 60 segundos')
+	--exports.api.discord('Minijuego **'.. name .. '** comensará en 60 segundos')
 
 end
 function infoev()
     if (eventInfo) then
         exports.Scripts_Dxmessages:outputDx(getRootElement(),
-                                            " Iniciando evento,\npara entrar use \n/ir",
+                                            "Iniciando minijuego,para entrar use \n/ir",
                                             0, 255, 0)
     end
 end
@@ -193,14 +194,14 @@ function EventCore.PlayerJoinEventCommand(p)
         exports.Scripts_Dxmessages:outputDx(getRootElement(),
                                             "" ..
                                                 getPlayerName(p) ..
-                                                " Entró al evento.\n Quedan [" ..
+                                                " Entró al evento.\nQuedan [" ..
                                                 rSlots .. "] cupos disponibles ",
                                             0, 255, 0)
     else
         exports.Scripts_Dxmessages:outputDx(getRootElement(),
                                             "" ..
                                                 getPlayerName(p) ..
-                                                " Entró al evento.\n Evento lleno [" ..
+                                                " Entró al evento.\nEvento lleno [" ..
                                                 rSlots .. "] cupos disponibles ",
                                             0, 255, 0)
     end
@@ -212,7 +213,7 @@ function EventCore.PlayerJoinEventCommand(p)
         end
     end
 
-    setElementInterior(p, 0)
+    setElementInterior(p, 0)	
     setElementDimension(p, eventInfo.dim)
 
     local x = x + (math.random(-0.7, 0.7))
@@ -239,6 +240,11 @@ function EventCore.PlayerJoinEventCommand(p)
     addEventHandler("onPlayerWasted", p, EventCore.RemovePlayerByWasted)
     triggerEvent("NGEvents:onPlayerJoinEvent", p)
 
+    outputChatBox(tostring(eventInfo.huds))
+    if (eventInfo.huds) then
+        triggerClientEvent(p,'onHunds',root,eventInfo.huds)
+    end
+
     if (eventInfo.vehicleID) then
         eventObjects.playerItems[p] = createVehicle(eventInfo.vehicleID, x, y,
                                                     z, 0, 0, r)
@@ -256,6 +262,9 @@ function EventCore.PlayerJoinEventCommand(p)
         toggleControl(p, "accelerate", false)
         toggleControl(p, "brake_reverse", false)
         setElementFrozen(eventObjects.playerItems[p], true)
+
+        setElementHealth(eventObjects.playerItems[p],9999999)
+
         if (not eventInfo.allowedVehicleExit) then
             addEventHandler("onVehicleStartExit", eventObjects.playerItems[p],
                             function(p) cancelEvent() end)
@@ -265,9 +274,6 @@ end
 
 function EventCore.BeginTheEvent()
     if (isTimer(DummyTimer1)) then killTimer(DummyTimer1) end
-
-	local timer = getElementData(p,'minHeight')
-	if isTimer(timer) then killTimer(timer) end
 	
 	removeCommandHandler("ir", _G['EventCore.PlayerJoinEventCommand'])
 
@@ -294,6 +300,10 @@ function EventCore.BeginTheEvent()
     end
     eventStartFunctions[eventInfo.id]()
     for i, p in pairs(EventCore.GetPlayersInEvent()) do
+
+        local timer = getElementData(p,'minHeight')
+        if isTimer(timer) then killTimer(timer) end
+
 		setElementData(p, "isGodmodeEnabled", eventInfo.godmode)
 		toggleControl(p, "jump", true)
         toggleControl(p, "fire", not eventInfo.disableWeapons)
@@ -391,7 +401,8 @@ end
 function EventCore.RemovePlayerFromEvent(p, reset)
     if (not playersInEvent[p]) then return false end
     removeEventHandler("onPlayerWasted", p, EventCore.RemovePlayerByWasted)
-    toggleControl(p, "fire", true)
+	toggleControl(p, "jump", true)
+	toggleControl(p, "fire", true)
     toggleControl(p, "next_weapon", true)
     toggleControl(p, "previous_weapon", true)
     setElementData(p, "isGodmodeEnabled", false)
@@ -414,8 +425,9 @@ function EventCore.RemovePlayerFromEvent(p, reset)
     if (isElement(eventObjects.playerItems[p])) then
         destroyElement(eventObjects.playerItems[p])
         eventObjects.playerItems[p] = nil
-	end
-	
+    end
+    
+    triggerClientEvent(p,'toggleBR',root,false)
 
     if reset then
         setTimer(function(p, pData)
@@ -658,3 +670,122 @@ function minHeight(id)
 	end
 
 end
+
+
+
+function giveWeapons(id)
+
+	for i, player in pairs(getElementsByType('player')) do
+		if ( getElementData ( player, "events:IsPlayerInEvent" ) ) then
+            
+            for i,data in ipairs(events[id].weapons) do 
+                giveWeapon(player,data[1],data[2])
+            end
+
+
+		end
+	end
+
+end
+
+function toggleBRS(id)
+
+	for i, player in pairs(getElementsByType('player')) do
+		if ( getElementData ( player, "events:IsPlayerInEvent" ) ) then
+            
+            setElementData(player,'walls',10)
+
+            triggerClientEvent(player,'toggleBR',root,true)
+
+
+		end
+	end
+
+end
+
+
+
+markers = {}
+
+function sendCheckpoints(id)
+    
+    
+    
+	for i,checkpoint in ipairs(events[id].checkpoints) do 
+    
+        
+        
+		local marker = createMarker(checkpoint[2],checkpoint[3],checkpoint[4])
+		--local blip = createBlipAttachedTo(marker)
+        
+
+        
+		setElementData(marker,'id',i)
+                
+        setElementDimension(marker,2)
+        
+        table.insert(markers,marker)
+
+		--setElementDimension(blip,2)
+		
+        addEventHandler("onMarkerHit", marker, function(vehicle, dim)
+            if getElementType( vehicle ) ~= 'vehicle' then return end
+        
+
+
+            local checkpointid = getElementData(marker,'id')
+            local player = getVehicleOccupant (vehicle)
+    
+            
+            
+            if isElementVisibleTo(marker,player) == false then return end
+            
+            if checkpointid == #events[id].checkpoints then
+                EventCore.WinPlayerEvent( player )
+                return
+            end
+
+            
+            setElementData(player,'checkpoint',checkpointid+1)
+            
+            outputChatBox(getElementData(player, 'checkpoint'))
+            
+            setElementModel(vehicle,events[id].checkpoints[checkpointid][1])
+            
+            setElementVisibleTo(marker,player,false)
+            setElementVisibleTo(marker,root,false)
+
+            setElementVisibleTo(markers[checkpointid+1],player,true)
+
+            setElementVisibleTo(markers[checkpointid+1],root,true)
+
+
+        end)	
+        
+	end
+    
+    -- todo: cambiar root por player
+    
+    for i, player in pairs(getElementsByType('player')) do
+        if ( getElementData ( player, "events:IsPlayerInEvent" ) ) then
+            outputChatBox('player')
+          --  triggerClientEvent(player,'onCheckpoints',root,player,events[id].checkpoints,events[id].vehicles,id)
+            setElementData(player, 'checkpoint',0)
+
+            for j,marker in ipairs(markers) do 
+                setElementVisibleTo(marker,root,false)
+                setElementVisibleTo(marker,player,false)
+
+                outputChatBox('invisible')
+                if j == 1 then
+                    outputChatBox('visible')
+                    setElementVisibleTo(marker,root,true)
+                    setElementVisibleTo(marker,player,true)
+
+                end
+            end
+
+        end
+    end
+end
+

@@ -1,5 +1,5 @@
 events[3] = { 
-	name 						= 'DERBY DEATHMATCH #3',	-- The event name
+	name 						= 'BATE-BATE #3',	-- The event name
 	maxSlots 					= 20,				-- The max players for the event
 	minSlots 					= 3,				-- The required amount of players
 	warpPoses = {									-- Positions players will warp to on start

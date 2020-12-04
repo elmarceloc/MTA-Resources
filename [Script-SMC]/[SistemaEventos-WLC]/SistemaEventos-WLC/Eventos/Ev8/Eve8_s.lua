@@ -1,5 +1,5 @@
 events[8] = { 
-	name 						= 'CARRERA #3',	-- The event name
+	name 						= 'RACHA #3',	-- The event name
 	maxSlots 					= 25,				-- The max players for the event
 	minSlots 					= 3,				-- The required amount of players
 	warpPoses = {									-- Positions players will warp to on start
