@@ -117,23 +117,23 @@ addEventHandler("onClientKey",root,function(btn,press)
             type = 'animation'
             folder = 1
             init(btn)
-        elseif btn == "5" then
+        elseif btn == "4" then
             type = 'animation'
             folder = 3
             init(btn)
-        elseif btn == "6" then
+        elseif btn == "5" then
             type = 'animation'
             folder = 4
             init(btn)
-        elseif btn == "7" then
+        elseif btn == "6" then
             type = 'animation'
             folder = 5
             init(btn)
-        elseif btn == "8" then
+        elseif btn == "7" then
             type = 'animation'
             folder = 6
             init(btn)
-        elseif btn == "4" then
+        elseif btn == "8" then
             folder = 2
             vip(btn)
         elseif btn == "lshift" or btn == "mouse1" or btn == "w" or btn == "s" or btn == "a" or btn == "d" then
