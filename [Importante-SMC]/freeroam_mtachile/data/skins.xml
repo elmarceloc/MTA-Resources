@@ -1,14 +1,6 @@
 <catalog type="skin">
         
-    <group name="-----FIESTAS PATRIAS-----">
-
-    	<skin id="128" name="Huaso con Poncho" keywords="eagle,ranch,indian,necklace,guy,male"/>
-		<skin id="132" name="Huaso Elegante" keywords="headband,bald,old,indian,guy,male,necklace,jewelry"/>
-	</group>
-
     <group name="-----CHILENAS-----">
-			<skin id="205" name="Trabajador Burger King 1" keywords="food,apron,hat,hamburger,shot,fast,server,fat,heavy,girl,woman,white,heels"/>
-			<skin id="145" name="Trabajador Burger King 2" keywords="andre,white,male"/>
 			<skin id="144" name="Incoludido" keywords="sars,mask,doctor,gas,breathe,cocaine,factory,black,guy,male"/>
 			<skin id="15" name="Balticaman" keywords="maccer,male,white,wanker"/>
 			<skin id="16" name="Sr. PF" keywords="officer,tenpenny,male,black,cop"/>
