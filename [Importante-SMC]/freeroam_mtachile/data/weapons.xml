@@ -2,14 +2,14 @@
     <group name="Cuerpo a cuerpo">
 		<weapon id="1" name="Escudo Pareman" />
 		<weapon id="5" name="Bandera Chilena" />
-		<weapon id="15" name="Cañeria" />
+		<weapon id="15" name="Pico de Minecraft" />
 		<weapon id="9" name="Taladro Bauker" />
 		<weapon id="2" name="Guitarra" />
 		<weapon id="7" name="Mazo" />
 		<weapon id="8" name="Sable de luz" />
 		<weapon id="4" name="Cuchillo" />
 		<weapon id="3" name="Luma" />
-		<weapon id="6" name="Pala" />
+		<weapon id="6" name="Raqueta de ping pong" />
 		<weapon id="14" name="Escoba" />
 		<weapon id="10" name="Nokia Mazo" />
 		<weapon id="11" name="Gaviota de Plata" />
@@ -24,19 +24,19 @@
 
 	<group name="Escopetas">
 		<weapon id="26" name="Sawn-off shotgun" />
-		<weapon id="25" name="Shotgun" />
+		<weapon id="25" name="Pescado" />
 		<weapon id="27" name="SPAZ-12" />
 	</group>
 
 	<group name="Sub-fusiles de asalto">
-		<weapon id="29" name="Pistola de Agua" />
+		<weapon id="29" name="MP5" />
 		<weapon id="32" name="TEC-9" />
 		<weapon id="28" name="Uzi" />
 	</group>
 
 	<group name="Fusiles de Asalto">
 		<weapon id="30" name="AK47" />
-		<weapon id="31" name="Pescado" />
+		<weapon id="31" name="M4" />
 	</group>
 
 	<group name="Rifles">
