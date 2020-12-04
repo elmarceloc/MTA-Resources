@@ -1,8 +1,0 @@
-<meta>
-	<info author="VSCode MTA:SA Lua" type="script" name="funado" />
-	<script src="c_funado.lua" type="client" cache="false" />
-	<script src="s_funado.lua" type="server" />
-
-	<file src="OLD.ttf" type="client" />
-
-</meta>
