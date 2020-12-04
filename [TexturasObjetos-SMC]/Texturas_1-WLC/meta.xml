@@ -1,0 +1,8 @@
+<meta>
+    <info author="Zeta" name="Texturas_1-WLC" version="1.0" type="script" />
+    
+    <file src="img/dynphn.txd" />
+	<file src="img/roadside.txd" />
+	
+    <script src="client.lua" type="client" />
+</meta>

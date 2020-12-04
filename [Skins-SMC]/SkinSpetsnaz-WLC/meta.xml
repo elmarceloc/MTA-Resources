@@ -1,0 +1,8 @@
+<meta>
+    <info author="Zeta" name="SkinSpetsnaz-WLC" version="1.0" type="script" />
+    
+    <file src="img/SkinSpetsnaz.txd" />
+    <file src="img/SkinSpetsnaz.dff" />
+	
+    <script src="client.lua" type="client" />
+</meta>

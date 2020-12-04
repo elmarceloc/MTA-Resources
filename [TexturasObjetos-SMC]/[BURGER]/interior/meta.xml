@@ -1,0 +1,8 @@
+<meta>
+    <script src="custom.lua" type="client" cache="false" />
+    <file src="files/1.txd" />
+    <file src="files/2.txd" />
+    <file src="files/3.txd" />
+    <file src="files/4.txd" />
+    <file src="files/5.txd" />
+</meta>

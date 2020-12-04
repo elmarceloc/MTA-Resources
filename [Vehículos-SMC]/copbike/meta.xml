@@ -1,0 +1,6 @@
+<meta>
+	<info author="Andrixx" version="1.0.0" type="script" name="" description="" showInResourceBrowser="true" />
+	<script src="carpack.lua" type="client" />
+	<file src="car/copbike.txd" />
+	<file src="car/copbike.dff" />
+</meta>

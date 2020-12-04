@@ -1,0 +1,33 @@
+<meta>
+<info author="Zeta" name="EscenarioPlaya-WLC" version="1.0" type="script"/>
+
+	<!-- mapeo -->
+	<map src="EscenarioPlaya_map-WLC/EscenarioPlaya_map-WLC.map" dimension="0"></map>
+    <script src="EscenarioPlaya_map-WLC/mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="EscenarioPlaya_map-WLC/mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>
+	
+	<!-- tp -->
+	<script src="tpESCENARIO/s_escenario.lua" type="server" />
+	
+	<!-- puerta -->
+	<script src="puertaESCENARIO/puerta.lua" type="server" />
+	
+	<!-- kiosko playa -->
+	<file src="KioskoPlaya-WLC/img/surf.col" />
+	<file src="KioskoPlaya-WLC/img/surf.txd" />
+    <file src="KioskoPlaya-WLC/img/surf.dff" />
+	
+	<file src="KioskoPlaya-WLC/img/kiosko.col" />
+	<file src="KioskoPlaya-WLC/img/kiosko.txd" />
+	<file src="KioskoPlaya-WLC/img/kiosko.dff" />
+	
+    <script src="KioskoPlaya-WLC/client.lua" type="client" />
+	
+	<!-- pantalla escenario -->
+	<file src="PantallaEscenario-WLC/img/screen_curved.col" />
+	<file src="PantallaEscenario-WLC/img/screen.txd" />
+    <file src="PantallaEscenario-WLC/img/screen_curved.dff" />
+	
+    <script src="PantallaEscenario-WLC/client.lua" type="client" />
+	
+</meta>

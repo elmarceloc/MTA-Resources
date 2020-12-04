@@ -1,0 +1,21 @@
+<meta>
+<info author="Zeta" name="TougeOkaru-WLC" version="1.0" type="script"/>
+
+	<map src="TougeOkaru_map-WLC.map" dimension="0"></map>
+	
+    <file src="TougeOkaru/okaru.txd" />
+	<file src="TougeOkaru/okaru.col" />
+	<file src="TougeOkaru/okaru.dff" />
+	<file src="TougeOkaru/okaru1.col" />
+	<file src="TougeOkaru/okaru1.dff" />
+	<file src="TougeOkaru/okaru2.col" />
+	<file src="TougeOkaru/okaru2.dff" />
+	<file src="TougeOkaru/okaru3.col" />
+	<file src="TougeOkaru/okaru3.dff" />
+	<file src="TougeOkaru/okaru4.col" />
+	<file src="TougeOkaru/okaru4.dff" />
+	
+    <script src="TougeOkaru/okaru.lua" type="client" />
+
+	
+</meta>

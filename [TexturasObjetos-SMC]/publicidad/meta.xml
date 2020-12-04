@@ -1,0 +1,11 @@
+<meta>
+    <script src="custom.lua" type="client" cache="false" />
+    <file src="files/ground5_las.txd" />
+    <file src="files/billbrd01_lan.txd" />
+    <file src="files/billbrd01_lan2.txd" />
+    <file src="files/hospital_lae.txd" />
+    <file src="files/publicidad1.txd" />
+    <file src="files/publicidad2.txd" />
+    <file src="files/publicidad3.txd" />
+    <file src="files/publicidad4.txd" />
+</meta>

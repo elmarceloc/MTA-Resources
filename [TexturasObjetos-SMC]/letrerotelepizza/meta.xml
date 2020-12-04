@@ -1,0 +1,6 @@
+<meta>
+    <script src="custom.lua" type="client" />
+    <file src="files/letrerotelepizza.txd" />
+    <file src="files/letrerotelepizza.dff" />
+    <file src="files/letrerotelepizza.col" />
+</meta>

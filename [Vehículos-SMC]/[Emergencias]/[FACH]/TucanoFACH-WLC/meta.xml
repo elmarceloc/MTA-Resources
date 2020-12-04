@@ -1,0 +1,8 @@
+<meta>
+ <info author = "Zeta" description = "TucanoFACH-WLC" version = "1.0" type = "script" />
+ 
+ <script src = "client.lua" type = "client" />
+ <file src = "dodo.txd" />
+ <file src = "dodo.dff" />
+ 
+ </meta> 

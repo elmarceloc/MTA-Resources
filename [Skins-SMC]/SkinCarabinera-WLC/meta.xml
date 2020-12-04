@@ -1,0 +1,8 @@
+<meta>
+    <info author="Zeta" name="SkinCarabinera-WLC" version="1.0" type="script" />
+    
+    <file src="img/carabinera.txd" />
+    <file src="img/carabinera.dff" />
+	
+    <script src="client.lua" type="client" />
+</meta>

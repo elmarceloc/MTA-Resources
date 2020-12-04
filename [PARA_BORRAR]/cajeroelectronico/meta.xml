@@ -1,0 +1,8 @@
+<meta>
+	<info author="Elvio_Lao // Marcelo" version="1.3" type="script" name="Robo Cajero Electronico" />
+    <script src="s.lua" type="server" />
+    <script src="c.lua" type="client" />
+
+    <file src="song/alarm.wav" />
+
+</meta>

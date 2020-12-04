@@ -1,0 +1,13 @@
+<meta>
+    <script src="custom.lua" type="client" cache="false" />
+    <file src="files/extra1.txd" />
+    <file src="files/extra2.txd" />
+    <file src="files/extra3.txd" />
+    <file src="files/extra4.txd" />
+    <file src="files/extra5.txd" />
+    <file src="files/extra6.txd" />
+    <file src="files/extra7.txd" />
+    <file src="files/extra8.txd" />
+    <file src="files/extra10.txd" />
+    <file src="files/extra11.txd" />
+</meta>

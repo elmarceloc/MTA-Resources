@@ -1,0 +1,5 @@
+<meta>
+	<info author="VSCode MTA:SA Lua" type="script" name="record" />
+	<script src="c_record.lua" type="client" cache="false" />
+	<script src="s_record.lua" type="server" />
+</meta>

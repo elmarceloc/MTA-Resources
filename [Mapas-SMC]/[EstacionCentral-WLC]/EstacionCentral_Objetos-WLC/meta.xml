@@ -1,0 +1,51 @@
+<meta>
+    <info author="Zeta - Weaita" name="Estacion Central" version="1.0" type="script" />
+    
+	
+	--ESTACIONES--
+	--estacion central--
+	<file src="img/estacion_central/estacion_central.txd" />
+    <file src="img/estacion_central/estacion_central.col" />
+    <file src="img/estacion_central/estacion_central.dff" />
+	
+	--VIAS--
+	<file src="img/vias/railtunn1_law2.txd" />
+	<file src="img/vias/railway_las.txd" />
+	<file src="img/vias/stationtunnel.txd" />
+	<file src="img/vias/traintrack_las.txd" />
+	<file src="img/vias/traintrack_las2.txd" />
+	<file src="img/vias/lasroads_las2.txd" />
+	<file src="img/vias/tunnel_law.txd" />
+	<file src="img/vias/railwaycuntw.txd" />
+	<file src="img/vias/traintunnel2_sfse.txd" />
+	<file src="img/vias/traingen_sfse.txd" />
+	<file src="img/vias/trainplatform_sfse.txd" />
+	<file src="img/vias/traintunnel1_sfse.txd" />
+	<file src="img/vias/railbridge_sfse.txd" />
+	<file src="img/vias/desn_trainstuff.txd" />
+	<file src="img/vias/des_trainstuff.txd" />
+	<file src="img/vias/vgwestrailrd.txd" />
+	<file src="img/vias/vgnrailroad.txd" />
+	<file src="img/vias/vgsrailroad.txd" />
+	<file src="img/vias/vgsecoast.txd" />
+	<file src="img/vias/ce_traintrack1.txd" />
+	<file src="img/vias/ce_traintrack2.txd" />
+	<file src="img/vias/railtracklae.txd" />
+	
+	--OTROS--
+	<file src="img/otros/basurero.txd" />
+	<file src="img/otros/cartel_metro.col" />
+    <file src="img/otros/cartel_metro.txd" />
+    <file src="img/otros/cartel_metro.dff" />
+	<file src="img/otros/redbip.txd" />
+	<file src="img/otros/cajero_bancodechile.col" />
+    <file src="img/otros/cajero_bancodechile.txd" />
+    <file src="img/otros/cajero_bancodechile.dff" />
+	<file src="img/otros/cajero_bancoestado.col" />
+    <file src="img/otros/cajero_bancoestado.txd" />
+    <file src="img/otros/cajero_bancoestado.dff" />
+	<file src="img/otros/banca.txd" />
+	<file src="img/otros/plataforma_alta.txd" />
+	
+    <script src="client.lua" type="client" />
+</meta>

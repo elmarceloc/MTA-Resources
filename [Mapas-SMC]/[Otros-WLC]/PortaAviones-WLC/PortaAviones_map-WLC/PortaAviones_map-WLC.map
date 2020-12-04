@@ -1,0 +1,4 @@
+<map edf:definitions="editor_main">
+    <object id="object (turn_arm_R) (1)" breakable="false" interior="0" alpha="255" model="1952" doublesided="false" scale="1" dimension="0" posX="2986.5" posY="-2060.6001" posZ="1.5" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (turn_arm_R) (2)" breakable="false" interior="0" alpha="255" model="1952" doublesided="false" scale="1" dimension="0" posX="3020.3" posY="-2060.6001" posZ="1.5" rotX="0" rotY="0" rotZ="0"></object>
+</map>

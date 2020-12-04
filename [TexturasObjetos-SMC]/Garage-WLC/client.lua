@@ -1,0 +1,10 @@
+function Client ()
+col = engineLoadCOL ( "int3int_carupg_int.col" )
+engineReplaceCOL ( col, 14776 )
+txd = engineLoadTXD ( "genintintcarint3.txd" )
+engineImportTXD ( txd, 14776 )
+dff = engineLoadDFF ( "int3int_carupg_int.dff" )
+engineReplaceModel ( dff, 14776 )
+engineSetModelLODDistance(14776, 250)
+end
+addEventHandler( "onClientResourceStart", resourceRoot, Client )

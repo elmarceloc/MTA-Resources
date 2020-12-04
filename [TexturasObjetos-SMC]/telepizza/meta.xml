@@ -1,0 +1,6 @@
+<meta>
+    <script src="custom.lua" type="client" />
+    <file src="files/telepizza.txd" />
+    <file src="files/telepizza.dff" />
+    <file src="files/telepizza.col" />
+</meta>

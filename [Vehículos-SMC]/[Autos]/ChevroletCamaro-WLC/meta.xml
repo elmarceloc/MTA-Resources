@@ -1,0 +1,8 @@
+<meta>
+ <info author = "Anonimo" description = "ChevroletCamaro-WLC" version = "1.0" type = "script" />
+ 
+ <script src = "client.lua" type = "client" />
+ <file src = "camaro.txd" />
+ <file src = "camaro.dff" />
+ 
+ </meta> 

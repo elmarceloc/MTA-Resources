@@ -1,0 +1,23 @@
+--local timer = nil
+--
+--
+--function startRouletteTimer(sec)
+--	timer = setTimer(function ()
+--		timer = nil
+--		local rotation = math.random(0, 360)
+--		local speed = math.random(10, 20)
+--		for i,v in pairs(getElementsByType("player")) do
+--			triggerClientEvent(root, "onStopTimerRoulette", v, rotation, speed)
+--		end
+--	end, sec, 1)
+--end
+--addEvent("onStartTimerRoulette", true)
+--addEventHandler("onStartTimerRoulette", root, startRouletteTimer)
+--
+--function refreshPlayerTimerRoulette()
+--	if isTimer(timer) then
+--		triggerClientEvent(client, "onStopTimerRoulette", client, getTimerDetails(timer))
+--	end
+--end
+--addEvent("onRefreshPlayerTimerRoulette", true)
+--addEventHandler("onRefreshPlayerTimerRoulette", root, refreshPlayerTimerRoulette)

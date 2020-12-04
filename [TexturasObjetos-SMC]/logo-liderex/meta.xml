@@ -1,0 +1,6 @@
+<meta>
+    <script src="custom.lua" type="client" />
+    <file src="files/lider.txd" />
+    <file src="files/lider.dff" />
+    <file src="files/lider.col" />
+</meta>

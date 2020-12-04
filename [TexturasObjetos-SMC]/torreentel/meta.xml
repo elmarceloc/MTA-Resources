@@ -1,0 +1,6 @@
+<meta>
+    <script src="custom.lua" type="client" />
+    <file src="files/torreentel.txd" />
+    <file src="files/torreentel.dff" />
+    <file src="files/torreentel.col" />
+</meta>

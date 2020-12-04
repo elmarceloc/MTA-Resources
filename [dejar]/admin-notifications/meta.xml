@@ -1,0 +1,5 @@
+<meta>
+	<info author="VSCode MTA:SA Lua" type="script" name="admin-notifications" />
+	<script src="c_admin-notifications.lua" type="client" cache="false" />
+	<script src="s_admin-notifications.lua" type="server" />
+</meta>

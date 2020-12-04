@@ -1,0 +1,6 @@
+<meta>
+	<info author="WLC - Zeta - RPGComunnity" version="1.0" name="LogoWLC" decription="LogoWLC" type="script" />
+	<script src="client.lua" type="client" />
+        <file src="logowlc.png" />
+
+</meta>

@@ -1,0 +1,10 @@
+<meta>
+	<info description="respawn cars" author="BrianDUTCH" version="1.0" type="script" />
+	
+	<settings>
+		<setting name="*idleTime" value="300000" desc="Here u can change the time of respawn vehicle when they has been left. 300000 = 5 minutes. After change value restart the resource !!!" accept="*" />  <!-- respawn time when car not in use -->
+		<setting name="*waterTime" value="15000" desc="Here u can change the time of respawn vehicle when they has been drowned. 40000 = 40 seconds, My idea is to don't make it lower it can be abused by players. After change value restart the resource !!!" accept="*" /> <!-- respawn time when car drowned -->
+	</settings>
+
+	<script src="respawn.luac"/>
+</meta>

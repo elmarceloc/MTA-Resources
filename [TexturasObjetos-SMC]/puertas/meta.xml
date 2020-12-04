@@ -1,0 +1,4 @@
+<meta>
+    <script src="custom.lua" type="client" />
+    <file src="files/7_11_door.txd" />
+</meta>

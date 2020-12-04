@@ -1,0 +1,4 @@
+<meta>
+    <info author="Marcelo" name="Gestión de Resources" version="1.0" />
+    <script src="server.lua" />
+</meta>

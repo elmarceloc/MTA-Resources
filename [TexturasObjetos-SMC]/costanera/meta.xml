@@ -1,0 +1,6 @@
+<meta>
+    <script src="custom.lua" type="client" />
+    <file src="files/costanera.txd" />
+    <file src="files/costanera.dff" />
+    <file src="files/costanera.col" />
+</meta>

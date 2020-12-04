@@ -1,0 +1,4 @@
+<meta>
+	<info author="Marselo" type="script" name="wheater" />
+	<script src="server.lua" type="server" />
+</meta>

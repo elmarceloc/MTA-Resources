@@ -1,0 +1,5 @@
+<meta>
+	<info author="VSCode MTA:SA Lua" type="script" name="quitarme" />
+	<script src="c_quitarme.lua" type="client" cache="false" />
+	<script src="s_quitarme.lua" type="server" />
+</meta>

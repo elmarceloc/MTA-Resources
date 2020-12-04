@@ -1,0 +1,8 @@
+<map>
+<interiorEntry	id="pacos1"	posX="2296.5"	posY="2468.7001953125"	posZ="9.8000001907349"	rotation="0"	dimension="0"	interior="0"	/>
+<interiorReturn	refid="pacos1"	posX="2258.6005859375"	posY="2443"	posZ="37.700000762939"	rotation="0"	interior="0"	dimension="0"	/>
+
+
+<interiorEntry	id="pacos2"	posX="2242.58936"	posY="2478.50000"	posZ="-8.45313"	rotation="0"	dimension="0"	interior="0"	/>
+<interiorReturn	refid="pacos2"	posX="2242.85205"	posY="2480.71509"	posZ="-8.44463"	rotation="0"	interior="0"	dimension="0"	/>
+</map>

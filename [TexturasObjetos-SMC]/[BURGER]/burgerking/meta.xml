@@ -1,0 +1,6 @@
+<meta>
+	<script src="client.lua" type="client" />
+	<file src="bk.col" />
+	<file src="bk.txd" />
+	<file src="bk.dff" />
+</meta>

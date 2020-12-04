@@ -1,0 +1,12 @@
+<meta>
+<info author="Zeta" name="CarcelLV-WLC" version="1.0" type="script"/>
+
+	<!-- mapeo -->
+	<map src="CarcelLV_map-WLC/CarcelLV_map-WLC.map" dimension="0"></map>
+    <script src="CarcelLV_map-WLC/mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="CarcelLV_map-WLC/mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>
+
+	<!-- BorrarObjetos -->
+	<script src="borrarCarcel/borrar_s.lua" type="server" />
+	
+</meta>

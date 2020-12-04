@@ -1,0 +1,8 @@
+<meta>
+	<info author="Zeta" version="1.0" type="script" name="Garage-WLC" />
+	<script src="client.lua" type="client" />
+	
+	<file src="int3int_carupg_int.col" />
+	<file src="genintintcarint3.txd" />
+	<file src="int3int_carupg_int.dff" />
+</meta>

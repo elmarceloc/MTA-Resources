@@ -1,0 +1,96 @@
+<root>
+    <mascaras>
+        <!-- Auronplay -->
+        <mascara id="14" x="-0.005" y="0.021" z="-0.015" size="1.043" rx="0" ry="0" rz="0" />
+        <!-- balticaman -->
+        <mascara id="15" x="-0" y="0" z="-0.017" size="1" rx="0" ry="0" rz="0" />
+        <!-- bestainegra -->
+        <mascara id="29" x="-0" y="0.013" z="0.003" size="1.113" rx="0" ry="0" rz="0" />
+        <!-- camiroaga -->
+        <mascara id="17" x="-0" y="0.01" z="-0.003" size="1" rx="0" ry="0" rz="0" />
+        <!-- chtvnega  (funciona mal)-->
+        <mascara id="18" x="-0.982" y="-0.821" z="0.302" size="2.789" rx="9" ry="-46" rz="121" />
+        <!-- chupacabras  -->
+        <mascara id="49" x="0.001" y="0.172" z="-0.052" size="1.171" rx="0" ry="0" rz="0" />
+        <!-- condorito  -->
+        <mascara id="19" x="0.0202" y="0.6748" z="-0.0138" size="3.8104" rx="0" ry="-19" rz="0" />
+        <!-- critico histerico  -->
+        <mascara id="20" x="-0.006" y="-0.024" z="0.032" size="1.124" rx="1" ry="1081" rz="9" />
+        <!-- dalas calvo  -->
+        <mascara id="21" x="0.002" y="0.021" z="0.037" size="1.087" rx="0" ry="0" rz="2" />
+         <!-- donald trump  -->
+        <mascara id="22" x="-0" y="-0.007" z="-0.019" size="1" rx="0" ry="0" rz="0" />
+        <!-- don fransisco -->
+        <mascara id="57" x="-0.01" y="0.03" z="0.02" size="1.3" rx="0" ry="0" rz="0" />
+        <!-- don ramon -->
+        <mascara id="25" x="0.002" y="-0.011" z="0.031" size="1.316" rx="0" ry="0" rz="2" />
+        <!-- doramion -->
+        <mascara id="24" x="0.001" y="0.2096" z="0.0148" size="1.1434" rx="0" ry="-18" rz="0" />
+         <!-- Dr.simi -->
+        <mascara id="23" x="0" y="0" z="-0.14" size="4.1" rx="0" ry="0" rz="0" />
+         <!-- Dylan -->
+        <mascara id="100" x="-0.015" y="-0.145" z="-0.021" size="1.501" rx="1" ry="7" rz="4" />
+         <!-- Encapuchado 1 -->
+        <mascara id="26" x="-0" y="0.022" z="0.003" size="1.228" rx="0" ry="0" rz="0" />
+         <!-- Encapuchado 2 -->
+        <mascara id="73" x="-0" y="0.022" z="0.003" size="1.228" rx="0" ry="0" rz="0" />
+         <!-- Encapuchado 2 -->
+        <mascara id="2" x="-0" y="0.022" z="0.04" size="1.228" rx="0" ry="0" rz="0" />
+         <!-- Encapuchado 3 -->
+        <mascara id="82" x="-0" y="0.013" z="0.016" size="1.276" rx="0" ry="0" rz="0" />
+         <!-- Encapuchado 4 -->
+        <mascara id="83" x="0.004" y="-0.003" z="-0.015" size="1.146" rx="0" ry="0" rz="0" />
+         <!-- Goku -->
+        <mascara id="84" x="-3.4694" y="0.7334" z="0.4546" size="1.2156" rx="0" ry="-73" rz="0" />
+         <!-- Goku ssj3 -->
+        <mascara id="96" x="-0.013" y="0.719" z="0.471" size="1.167" rx="0" ry="-74" rz="1" />
+         <!-- gope -->
+        <mascara id="285" x="-0" y="0.004" z="-0.132" size="1.389" rx="0" ry="0" rz="0" />
+         <!-- holyfuu -->
+        <mascara id="46" x="-0.005" y="-0.001" z="-0.008" size="1.154" rx="0" ry="0" rz="0" />
+         <!-- jotarojojos -->
+        <mascara id="27" x="0.006" y="-0.011" z="-0.05" size="1.239" rx="0" ry="0" rz="0" />
+         <!-- karol dance -->
+        <mascara id="59" x="-0.001" y="0.002" z="-0.007" size="1.154" rx="0" ry="0" rz="0" />
+         <!-- lucho jara -->
+        <mascara id="35" x="0.002" y="-0.002" z="0.031" size="1.035" rx="0" ry="0" rz="4" />
+         <!-- marselo kino 5 -->
+        <mascara id="67" x="0.0648" y="0.9042" z="-0.699" size="4.639" rx="0" ry="-20" rz="0" />
+         <!-- nico gavilan -->
+        <mascara id="46" x="0.001" y="-0.006" z="0.018" size="1.049" rx="0" ry="0" rz="5" />
+         <!-- pancho saavedra -->
+        <mascara id="36" x="-0" y="0.034" z="-0.019" size="1.37" rx="0" ry="0" rz="0" />
+         <!-- pinochet -->
+        <mascara id="58" x="-0" y="0.135" z="-0.042" size="0.969" rx="0" ry="-10" rz="0" />
+        <!-- piñera -->
+        <mascara id="37" x="-0" y="-0.018" z="-0.038" size="1" rx="0" ry="0" rz="0" />
+        <!-- pisco alo macho -->
+        <mascara id="50" x="0.014" y="-0.004" z="-0.011" size="1.276" rx="0" ry="0" rz="4" />
+        <!-- rexthegex -->
+        <mascara id="34" x="-0" y="-0.2394" z="-0.138" size="4.6" rx="0" ry="2" rz="0" />
+        <!-- salfate -->
+        <mascara id="48" x="-0" y="-0.0396" z="-0.0676" size="1.6598" rx="0" ry="0" rz="5" />
+        <!-- estupido y sensual spiderman -->
+        <mascara id="81" x="0.007" y="-0.029" z="0" size="1.014" rx="0" ry="0" rz="0" />
+        <!-- sentao de pana -->
+        <mascara id="28" x="-0" y="-0.036" z="-0.027" size="1.311" rx="0" ry="0" rz="0" />
+        <!-- señor pf -->
+        <mascara id="16" x="-0" y="-0.3952" z="-1.6796" size="9.7382" rx="0" ry="0" rz="0" />
+        <!-- shrek -->
+        <mascara id="61" x="0.106" y="1.6746" z="0.9026" size="2.8458" rx="-1" ry="-67" rz="-3" />
+         <!-- Tio Aceite -->
+        <mascara id="43" x="-0.003" y="-0.031" z="-0.022" size="1.121" rx="0" ry="0" rz="0" />
+         <!-- Tio Emilio -->
+        <mascara id="33" x="0.001" y="0.005" z="-0.006" size="1.121" rx="0" ry="0" rz="0" />
+         <!-- Tyler1 -->
+        <mascara id="80" x="-0" y="-0.038" z="-0.008" size="1.1" rx="0" ry="0" rz="0" />
+         <!-- uber -->
+        <mascara id="30" x="0.006" y="-0.005" z="-0.008" size="1.044" rx="0" ry="0" rz="0" />
+        <!-- vidal -->
+        <mascara id="1" x="-0" y="0.003" z="0.019" size="1.085" rx="0" ry="0" rz="0" />
+        <!-- willy sabor -->
+        <mascara id="66" x="0.003" y="0.099" z="-0.017" size="1.143" rx="0" ry="-11" rz="0" />
+        <!-- xoda -->
+        <mascara id="60" x="-0.005" y="-0.043" z="0.04" size="1.07" rx="0" ry="4" rz="0" />
+    </mascaras>
+</root>

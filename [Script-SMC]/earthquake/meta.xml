@@ -1,0 +1,19 @@
+<meta>
+	<info author="FAST WOLFS - Erik Ivan Aranda // ErikIvaN" name="Earthquake" description="Earthquake for all people" type="script" version="2.0.0" />
+     
+    #Note: Maybe coming soon new version.
+    
+    /*-----*/
+    
+    #Scripts
+    <script src="scripts/script2.lua" type="server" />  --) My General Script Server - 86 Lines
+    <script src="scripts/script4.lua" type="client" />  --) My Other General Script Client  - 38 Lines
+    <script src="scripts/script.luac" type="client" />   --) My General Script Client - 42 Lines
+    <script src="scripts/script3.lua" type="client" />  --) My Second General Script Client - 46 Lines
+    
+    #Sounds
+    <file src="sounds/terrain.mp3" />  --) Searched for Google
+    
+    /*-----*/   
+
+</meta>

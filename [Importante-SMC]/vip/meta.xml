@@ -1,0 +1,14 @@
+<meta>
+    <info author="ByCash" name="Vip Panel" version="1.2" type="script"/>
+
+    <script src="client.lua" type="client" cache="false"/>
+    <script src="server.lua" type="server"/>
+
+
+    <export function="VipPanel" type="client" />
+
+    <file src="img/logo.png"/>
+    <file src="img/blue.png"/>
+    <file src="img/orange.png"/>
+    <file src="img/bg.png"/>
+</meta>

@@ -1,0 +1,8 @@
+<meta>
+ <info author = "Anonimo" description = "CanisCrusader-WLC" version = "1.0" type = "script" />
+ 
+ <script src = "client.lua" type = "client" />
+ <file src = "canis.txd" />
+ <file src = "canis.dff" />
+ 
+ </meta> 

@@ -1,0 +1,12 @@
+<meta>
+	<info name="2016 speedometer" author="SZEF[EJM]Martin" version="1.0" type="misc"/>
+
+	<!-- FILES -->
+    <file src="images/interaction.png" />
+    
+    <!-- SERVER SIDE -->
+    <script src="interaction.lua" type="server" />
+
+    <!-- CLIENT SIDE -->
+    <script src="interaction_c.lua" type="client" cache="false"/>
+</meta>

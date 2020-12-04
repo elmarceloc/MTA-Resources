@@ -1,0 +1,5 @@
+<meta>
+	<info author="TexTra" version="1.5" type="script" description="Este script es para guardar autos apreta f1 y se abre el panel" />
+	<script src="server.lua" type="server" />
+	<script src="client.lua" type="client" cache="false" />
+</meta>

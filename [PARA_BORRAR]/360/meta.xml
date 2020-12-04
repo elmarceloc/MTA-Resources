@@ -1,0 +1,6 @@
+<meta>
+  <info author="DakiLLa" type="script" version="1.0.2" description="Stunt tricks and bike salto" />
+  <script src="trials_s.luac" type="server" />
+  <script src="trials_c.luac" type="client" />
+  <config src="help.xml" type="client" />
+</meta>

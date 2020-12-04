@@ -1,0 +1,24 @@
+<meta>
+    <info author="Zeta" name="Estadio-SMC" version="1.0" type="script" />
+    
+	<file src="img/estadio.col" />
+	<file src="img/piso.col" />
+	<file src="img/cancha.col" />
+	<file src="img/arco.col" />
+	<file src="img/memorial.col" />
+	
+	<file src="img/estadio.txd" />
+	<file src="img/piso.txd" />
+	<file src="img/cancha.txd" />
+	<file src="img/arco.txd" />
+	<file src="img/memorial.txd" />
+	
+    <file src="img/estadio.dff" />
+    <file src="img/piso.dff" />
+	<file src="img/cancha.dff" />
+	<file src="img/arco.dff" />
+	<file src="img/memorial.dff" />
+	
+    <script src="client.lua" type="client" />
+	<script src="estadio_s.lua" type="server" />
+</meta>

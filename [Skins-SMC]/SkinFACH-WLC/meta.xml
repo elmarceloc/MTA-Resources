@@ -1,0 +1,8 @@
+<meta>
+    <info author="Zeta" name="SkinFACH-WLC" version="1.0" type="script" />
+    
+    <file src="img/fach.txd" />
+    <file src="img/fach.dff" />
+	
+    <script src="client.lua" type="client" />
+</meta>

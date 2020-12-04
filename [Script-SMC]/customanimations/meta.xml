@@ -1,0 +1,18 @@
+<meta>
+	<info author="Drex y marselo" version="1.1" name="Custom animations" type="script" />
+	<export function="setPedCustomAnimation" type="server" />
+
+	<file src="1.ifp" />
+	<file src="2.ifp" />
+	<file src="3.ifp" />
+	<file src="4.ifp" />
+	<file src="5.ifp" />
+	<file src="6.ifp" />
+	<file src="7.ifp" />
+	<file src="8.ifp" />
+	<file src="9.ifp" />
+	<file src="10.ifp" />
+ 
+	<script src="client.lua" type="client" cache="false" />
+	<script src="server.lua" type="sever" cache="false" />
+</meta>

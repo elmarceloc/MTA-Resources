@@ -1,0 +1,6 @@
+<meta>
+    <script src="custom.lua" type="client" />
+    <file src="files/fenix2.txd" />
+    <file src="files/fenix2.dff" />
+    <file src="files/fenix2.col" />
+</meta>

@@ -1,0 +1,5 @@
+<meta>
+    <script src="custom.lua" type="client" />
+    <file src="files/asientos.txd" />
+    <file src="files/asientos.dff" />
+</meta>

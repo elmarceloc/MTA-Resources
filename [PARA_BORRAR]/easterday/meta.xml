@@ -1,0 +1,9 @@
+<meta>
+	<info author="VSCode MTA:SA Lua" type="script" name="easterday" />
+	<script src="c_easterday.lua" type="client" cache="false" />
+	<script src="s_easterday.lua" type="server" />
+
+	<file src="eggs.png"/>
+	<file src="easter.ttf"/>
+
+</meta>

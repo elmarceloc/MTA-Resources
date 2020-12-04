@@ -1,0 +1,16 @@
+<meta>
+<info author="Zeta - ElvioLao" name="ClanARMADA-WLC" version="1.0" type="script"/>
+<oop>true</oop>
+	<!-- mapeo -->
+	<map src="ClanARMADA_map-WLC/ClanARMADA_map-WLC.map" dimension="0"></map>
+    <script src="ClanARMADA_map-WLC/mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="ClanARMADA_map-WLC/mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>
+	
+	<!-- puerta_tp -->
+	<script src="puertaARMADA/puerta.lua" type="server"></script>
+	
+	<!-- texturas -->
+	<script src="texturaARMADA/client.lua" type="client" />
+	<file src="texturaARMADA/img/sfn_helipad.txd" />
+	
+</meta>

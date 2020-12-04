@@ -1,0 +1,30 @@
+<meta>
+<info author="Zeta - ElvioLao" name="ClanCARABINEROS-WLC" version="1.0" type="script"/>
+
+	<!-- mapeo -->
+	<map src="ClanCARABINEROS_map-WLC/ClanCARABINEROS_map-WLC.map" dimension="0"></map>
+    <script src="ClanCARABINEROS_map-WLC/mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="ClanCARABINEROS_map-WLC/mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>
+	
+	<!-- puerta -->
+	<script src="puertaCARABINEROS/puerta.lua" type="server"></script>
+	
+	<!-- tp -->
+	<script src="tpCARABINEROS/interiorexp.lua" type="server" />
+	<script src="tpCARABINEROS/interiors_client.lua" type="client" />
+	<script src="tpCARABINEROS/client_anim.lua" type="client" />
+	<map src="tpCARABINEROS/interiors.map" />
+
+	<export function="getInteriorMarker" type="server" />
+	<export function="getInteriorName" type="server" />
+	<export function="getInteriorMarker" type="client" />
+	<export function="getInteriorName" type="client" />
+	
+	<!-- texturas -->
+	<script src="texturaCARABINEROS/client.lua" type="client" />
+	
+	<file src="texturaCARABINEROS/img/vgndwntwn1.txd" />
+	<file src="texturaCARABINEROS/img/vegasflag.txd" />
+	<file src="texturaCARABINEROS/img/police_props_un.txd" />
+	
+</meta>

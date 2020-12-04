@@ -1,0 +1,33 @@
+<meta>
+   	<oop>true</oop>
+
+	
+	<info author="Global" description="Global" version="1.1.1" type="script" />
+	
+	<script src="Chats.lua" type="server" />
+	
+	<script src="round.lua" type="client" />	
+	<script src="bubble_c.lua" type="client" />
+	<script src="bubble_s.lua" type="server" />
+
+	<export function="outputMessage" type="server"/>
+
+
+	<!-- Settings adjustable via admin panel -->
+	<!-- No need to restart the resource after changing settings -->
+    <settings>
+	
+		<setting name="*delay" friendlyname="Tiempo entre mensajes" group="General" value="1000" />
+		<setting name="*spammsg" friendlyname="Mensaje al hacer spam" group="General" value="Deja de hacer spam -_-" />
+		<setting name="*repeatmsg" friendlyname="Mensaje al repetir lo mismo" group="General" value="!No repitas lo mismo!" />
+
+		<setting name="*censor" friendlyname="Mensaje cencurados" group="Censura" value="conchetumare, ahueonao, estupido," />
+		<setting name="*subsitute" friendlyname="Palabras por las cuales remplasar" group="Censura" value="choripan,choclo,atún" />
+
+
+		<setting name="*local" group="Distancia" value="60" />
+		<setting name="*roleo" group="Distancia" value="60" />
+
+
+	</settings>
+</meta>

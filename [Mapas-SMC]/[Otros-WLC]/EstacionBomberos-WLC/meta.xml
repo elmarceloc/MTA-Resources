@@ -1,0 +1,24 @@
+<meta>
+<info author="ElvioLao - Zeta - Marcelo Dios - Weaita" name="EstacionBomberos-WLC" version="1.0" type="script"/>
+
+	<!-- mapeo -->
+	<map src="EstacionBomberos_map-WLC/EstacionBomberos_map-WLC.map" dimension="0"></map>
+    <script src="EstacionBomberos_map-WLC/mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="EstacionBomberos_map-WLC/mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>
+	
+	<!-- puerta -->
+	<script src="puertaBOMBEROS/puerta_c.lua" type="client"/>
+    <script src="puertaBOMBEROS/puerta_s.lua" type="server"/>
+    <file src="puertaBOMBEROS/Font.ttf"/>
+    <file src="puertaBOMBEROS/interruptor.png"/>
+	
+	<!-- texturas -->
+	<file src="texturasBOMBEROS/img/firehouse_sfs.col" />
+	<file src="texturasBOMBEROS/img/fhouse_door.col" />
+	<file src="texturasBOMBEROS/img/firehouse_sfse.txd" />
+    <file src="texturasBOMBEROS/img/firehouse_sfs.dff" />
+	<file src="texturasBOMBEROS/img/fhouse_door.dff" />
+	
+    <script src="texturasBOMBEROS/client.lua" type="client" />
+	
+</meta>

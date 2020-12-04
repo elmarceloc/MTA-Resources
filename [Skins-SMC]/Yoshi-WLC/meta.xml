@@ -1,0 +1,8 @@
+<meta>
+ <info author = "Anonimo" description = "Yoshi-WLC" version = "1.0" type = "script" />
+ 
+ <script src = "client.lua" type = "client" />
+ <file src = "yoshi.txd" />
+ <file src = "yoshi.dff" />
+ 
+ </meta> 

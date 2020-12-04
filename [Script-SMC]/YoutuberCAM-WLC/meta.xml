@@ -1,0 +1,12 @@
+<meta>
+    <info author="Recursos de internet + fixeo de elvio xd" name="Celebridades" description="marcelo te meo" version="1.0" type="script" />
+
+    <script src="invisible/invisible.lua" type="server" />
+
+    <script src="admincam/freecam.lua" type="client" />
+    <script src="admincam/freecam_server.lua" type="server" />
+
+    <export function="isPlayerFreecamEnabled" />
+	
+	<script src="admincam/admincam.lua" type="server" />
+</meta>

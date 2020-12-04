@@ -1,0 +1,6 @@
+<meta>
+    <script src="custom.lua" type="client" />
+    <file src="files/mcdonalds.txd" />
+    <file src="files/mcdonalds.dff" />
+    <file src="files/mcdonalds.col" />
+</meta>

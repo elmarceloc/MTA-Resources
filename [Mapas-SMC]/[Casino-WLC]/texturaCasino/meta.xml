@@ -1,0 +1,6 @@
+<meta>
+	<info author="Zeta" version="1.0" type="script" name="texturaCasino" />
+	<script src="client.lua" type="client" />
+	
+	<file src="miragecasino2.txd" />	
+</meta>

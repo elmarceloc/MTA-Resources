@@ -1,0 +1,215 @@
+<meta>
+	<info author="Marselo" type="script" name="Sounds and animations" />
+
+	<script src="client.lua" type="client" cache="false" />
+	<script src="server.lua" type="server" />
+
+<!--	<script src="animations_c.lua" type="client" />
+	<script src="animations_s.lua" type="server" />
+
+	<file src="Archivos/Imagenes/cancel.png"/>
+	<file src="Archivos/Imagenes/chat.png"/>
+	<file src="Archivos/Imagenes/logo-canto.png"/>
+	<file src="Archivos/Imagenes/fuck.png"/>
+	<file src="Archivos/Imagenes/handsup.png"/>
+	<file src="Archivos/Imagenes/sexy.png"/>
+	<file src="Archivos/Imagenes/smoke.png"/>
+	<file src="Archivos/Imagenes/sentar.png"/>
+	<file src="Archivos/Imagenes/smile.png"/>
+	<file src="Archivos/Imagenes/dance.png"/>
+	<file src="Archivos/Imagenes/espere.png"/>
+	<file src="Archivos/Imagenes/mouse.png"/>
+	<file src="Archivos/Sonidos/smoke.mp3"/>
+	<file src="Archivos/Sonidos/click.mp3"/>
+-->
+
+	<export function="stop" type="client" />
+	<export function="resume" type="client" />
+
+	<file src="wheel.png" />
+
+	<file type="client" src="BlurShader.fx"/>
+
+	<file src="sounds.xml" type="client"/>
+
+
+	<!-- Imagenes para la rueda (Skins custom) -->
+
+	<file src="imgs/dylantero1.png" />
+	<file src="imgs/dylantero2.png" />
+
+	<file src="imgs/arturo1.png" />
+	<file src="imgs/arturo2.png" />
+
+	<file src="imgs/auronplay1.png" />
+	<file src="imgs/auronplay2.png" />
+	<file src="imgs/auronplay3.png" />
+	<file src="imgs/auronplay4.png" />
+	<file src="imgs/auronplay5.png" />
+	<file src="imgs/auronplay6.png" />
+
+	<file src="imgs/donramon1.png" />
+	<file src="imgs/donramon2.png" />
+	<file src="imgs/donramon3.png" />
+	<file src="imgs/donramon4.png" />
+
+	<file src="imgs/karoldance1.png" />
+	<file src="imgs/karoldance2.png" />
+
+	<file src="imgs/pinochet1.png" />
+	<file src="imgs/pinochet2.png" />
+	<file src="imgs/pinochet3.png" />
+	<file src="imgs/pinochet4.png" />
+	<file src="imgs/pinochet5.png" />
+	<file src="imgs/pinochet6.png" />
+
+	<file src="imgs/tioemilio1.png" />
+	<file src="imgs/tioemilio2.png" />
+
+	<file src="imgs/donfrancisco1.png" />
+	<file src="imgs/donfrancisco2.png" />
+	<file src="imgs/donfrancisco3.png" />
+	<file src="imgs/donfrancisco4.png" />
+	<file src="imgs/donfrancisco5.png" />
+
+	<file src="imgs/balticaman1.png" />
+
+	<file src="imgs/chtvnega1.png" />
+
+	<file src="imgs/drsimi1.png" />
+
+	<file src="imgs/luisjara1.png" />
+
+	<file src="imgs/nicogavilan1.png" />
+
+	<file src="imgs/pinera1.png" />
+	<file src="imgs/pinera2.png" />
+	<file src="imgs/pinera3.png" />
+
+	<file src="imgs/shrek1.png" />
+
+	<file src="imgs/tioaceite1.png" />
+
+	<file src="imgs/trump1.png" />
+	<file src="imgs/trump2.png" />
+
+	<file src="imgs/jojos1.png" />
+	<file src="imgs/jojos2.png" />
+	<file src="imgs/jojos3.png" />
+	<file src="imgs/jojos4.png" />
+
+	<file src="imgs/marselo1.png" />
+	<file src="imgs/marselo2.png" />
+	<file src="imgs/marselo3.png" />
+
+	<file src="imgs/willyrex1.png" />
+	<file src="imgs/willyrex2.png" />
+	<file src="imgs/willyrex3.png" />
+	<file src="imgs/willyrex4.png" />
+	
+	<file src="imgs/pancho_saavedra1.png" />
+	<file src="imgs/pancho_saavedra2.png" />
+	<file src="imgs/pancho_saavedra3.png" />
+	<file src="imgs/pancho_saavedra4.png" />
+	
+	<file src="imgs/rei1.png" />
+	<file src="imgs/rei2.png" />
+	
+	<file src="imgs/homero_chino1.png" />
+	<file src="imgs/homero_chino2.png" />
+	
+	<!-- SONIDOS PARA SKINS-->
+
+	<file src="sounds/viejas.ogg" />
+	<file src="sounds/qmal.ogg" />
+
+	<file src="sounds/arturo1.ogg" />
+	<file src="sounds/arturo2.ogg" />
+
+	<file src="sounds/auronplay1.ogg" />
+	<file src="sounds/auronplay2.ogg" />
+	<file src="sounds/auronplay3.ogg" />
+	<file src="sounds/auronplay4.ogg" />
+	<file src="sounds/auronplay5.ogg" />
+	<file src="sounds/auronplay6.ogg" />
+
+	<file src="sounds/karoldance1.ogg" />
+	<file src="sounds/karoldance2.ogg" />
+
+	<file src="sounds/pinochet1.ogg" />
+	<file src="sounds/pinochet2.ogg" />
+	<file src="sounds/pinochet3.ogg" />
+	<file src="sounds/pinochet4.ogg" />
+	<file src="sounds/pinochet5.ogg" />
+	<file src="sounds/pinochet6.ogg" />
+
+	<file src="sounds/tioemilio1.ogg" />
+	<file src="sounds/tioemilio2.ogg" />
+
+	<file src="sounds/donfrancisco1.ogg" />
+	<file src="sounds/donfrancisco2.ogg" />
+	<file src="sounds/donfrancisco3.ogg" />
+	<file src="sounds/donfrancisco4.ogg" />
+	<file src="sounds/donfrancisco5.ogg" />
+
+
+	<file src="sounds/donramon1.ogg" />
+	<file src="sounds/donramon2.ogg" />
+	<file src="sounds/donramon3.ogg" />
+	<file src="sounds/donramon4.ogg" />
+
+	<file src="sounds/balticaman1.ogg" />
+
+	<file src="sounds/chtvnega1.ogg" />
+	
+	<file src="sounds/drsimi1.ogg" />
+
+	<file src="sounds/luisjara1.ogg" />
+
+	<file src="sounds/nicogavilan1.ogg" />
+
+	<file src="sounds/pinera1.ogg" />
+	<file src="sounds/pinera2.ogg" />
+	<file src="sounds/pinera3.ogg" />
+
+	<file src="sounds/shrek1.ogg" />
+
+	<file src="sounds/tioaceite1.ogg" />
+
+	<file src="sounds/trump1.ogg" />
+	<file src="sounds/trump2.ogg" />
+
+	<file src="sounds/jojos1.ogg" />
+	<file src="sounds/jojos2.ogg" />
+	<file src="sounds/jojos3.ogg" />
+	<file src="sounds/jojos4.ogg" />
+
+	<file src="sounds/marselo1.ogg" />
+	<file src="sounds/marselo2.ogg" />
+	<file src="sounds/marselo3.ogg" />
+
+	<file src="sounds/willyrex1.ogg" />
+	<file src="sounds/willyrex2.ogg" />
+	<file src="sounds/willyrex3.ogg" />
+	<file src="sounds/willyrex4.ogg" />
+	
+	<file src="sounds/pancho_saavedra1.ogg" />
+	<file src="sounds/pancho_saavedra2.ogg" />
+	<file src="sounds/pancho_saavedra3.ogg" />
+	<file src="sounds/pancho_saavedra4.ogg" />
+	
+	<file src="sounds/rei1.ogg" />
+	<file src="sounds/rei2.ogg" />
+	
+	<file src="sounds/homero_chino1.ogg" />
+	<file src="sounds/homero_chino2.ogg" />
+	
+
+<!--	<file src="animations/clubpenguin.ogg" /> -->
+<!--	<file src="animations/fornite.ogg" />
+	<file src="animations/gangnam.ogg" />
+	<file src="animations/lacancion.ogg" />
+	<file src="animations/moonwalk.ogg" />
+	<file src="animations/twerk.ogg" />-->
+
+</meta>

@@ -1,0 +1,7 @@
+col = engineLoadCOL ( "nakayubi.col" )
+engineReplaceCOL ( col, 2711 )
+txd = engineLoadTXD ( "nakayubi.txd" )
+engineImportTXD ( txd, 2711 )
+dff = engineLoadDFF ( "nakayubi.dff" )
+engineReplaceModel ( dff, 2711 )
+engineSetModelLODDistance(2711, 2000)

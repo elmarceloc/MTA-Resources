@@ -1,0 +1,75 @@
+<meta>
+    <script src="main.lua" type="client" cache="false" />
+    <script src="blackjack.lua" type="client" cache="false" />
+    <script src="slots.lua" type="client" cache="false" />
+    <script src="roulette.lua" type="client" cache="false" />
+    <script src="utils.lua" type="client" cache="false" />
+
+    <file src="assets/slots/1.png"/>
+    <file src="assets/slots/2.png"/>
+    <file src="assets/slots/3.png"/>
+    <file src="assets/slots/4.png"/>
+    <file src="assets/slots/5.png"/>
+    <file src="assets/slots/6.png"/>
+    <file src="assets/slots/7.png"/>
+    <file src="assets/slots/8.png"/>
+
+
+    <file src="assets/cards/0.png"/>
+    <file src="assets/cards/1.png"/>
+    <file src="assets/cards/2.png"/>
+    <file src="assets/cards/3.png"/>
+    <file src="assets/cards/4.png"/>
+    <file src="assets/cards/5.png"/>
+    <file src="assets/cards/6.png"/>
+    <file src="assets/cards/7.png"/>
+    <file src="assets/cards/8.png"/>
+    <file src="assets/cards/9.png"/>
+    <file src="assets/cards/10.png"/>
+    <file src="assets/cards/11.png"/>
+    <file src="assets/cards/12.png"/>
+    <file src="assets/cards/13.png"/>
+    <file src="assets/cards/14.png"/>
+    <file src="assets/cards/15.png"/>
+    <file src="assets/cards/16.png"/>
+    <file src="assets/cards/17.png"/>
+    <file src="assets/cards/18.png"/>
+    <file src="assets/cards/19.png"/>
+    <file src="assets/cards/20.png"/>
+    <file src="assets/cards/21.png"/>
+    <file src="assets/cards/22.png"/>
+    <file src="assets/cards/23.png"/>
+    <file src="assets/cards/24.png"/>
+    <file src="assets/cards/25.png"/>
+    <file src="assets/cards/26.png"/>
+    <file src="assets/cards/27.png"/>
+    <file src="assets/cards/28.png"/>
+    <file src="assets/cards/29.png"/>
+    <file src="assets/cards/30.png"/>
+    <file src="assets/cards/31.png"/>
+    <file src="assets/cards/32.png"/>
+    <file src="assets/cards/33.png"/>
+    <file src="assets/cards/34.png"/>
+    <file src="assets/cards/35.png"/>
+    <file src="assets/cards/36.png"/>
+    <file src="assets/cards/border.png"/>
+    <file src="assets/blackjack.png"/>
+    <file src="assets/chip.png"/>
+    <file src="assets/slots.png"/>
+    <file src="assets/roulette.png"/>
+
+    <file src="assets/roulette/roulette_border.png"/>
+    <file src="assets/roulette/roulette_number.png"/>
+    <file src="assets/roulette/roulette_setka.png"/>
+    <file src="assets/roulette/select1.png"/>
+    <file src="assets/roulette/select2.png"/>
+    <file src="assets/roulette/select3.png"/>
+    <file src="assets/roulette/select4.png"/>
+
+
+    <file src="assets/main.png"/>
+
+    <file src="assets/fonts/gotham-bold.ttf"/>
+    <file src="assets/fonts/gotham-light.ttf"/>
+    <file src="assets/fonts/gotham-medium.ttf"/>
+</meta>

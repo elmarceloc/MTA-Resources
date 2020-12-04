@@ -1,0 +1,5 @@
+<meta>
+	<info author="VSCode MTA:SA Lua" type="script" name="voice-chat-distance" />
+	<script src="c_voice-chat-distance.lua" type="client" cache="false" />
+	<script src="s_voice-chat-distance.lua" type="server" />
+</meta>

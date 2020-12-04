@@ -1,0 +1,8 @@
+<meta>
+	<info author="VSCode MTA:SA Lua" type="script" name="plata" />
+	<script src="c_plata.lua" type="client" cache="false" />
+	<script src="s_plata.lua" type="server" />
+
+	<file src="cash.wav"  />
+
+</meta>

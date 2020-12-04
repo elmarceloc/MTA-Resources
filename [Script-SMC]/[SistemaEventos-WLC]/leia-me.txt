@@ -1,0 +1,18 @@
+
+
+É propietario desse mod e não queria ele postado ?
+entre em contato que iremos remover :)
+mod achado em um backup de um servidor rpg postado na net
+
+Metodo de usar : 
+
+Inicie também o script_dxmessages
+
+o evento começa sozinho mais caso queira iniciar digite exemplo :
+
+/einiciar 1 
+/einiciar 2 
+/einiciar 3 
+e etc 
+
+para cancelar o evento /eparar

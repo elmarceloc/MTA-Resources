@@ -1,0 +1,25 @@
+col_1 = engineLoadCOL ( "sanjose1.col" )
+engineReplaceCOL ( col_1, 2399 )
+col_2 = engineLoadCOL ( "sanjose2.col" )
+engineReplaceCOL ( col_2, 2374 )
+col_3 = engineLoadCOL ( "sanjose3.col" )
+engineReplaceCOL ( col_3, 2383 )
+
+txd_1 = engineLoadTXD ( "sanjose.txd" )
+engineImportTXD ( txd_1, 2399 )
+txd_2 = engineLoadTXD ( "sanjose.txd" )
+engineImportTXD ( txd_2, 2374 )
+txd_3 = engineLoadTXD ( "sanjose.txd" )
+engineImportTXD ( txd_3, 2383 )
+
+
+dff_1 = engineLoadDFF ( "sanjose1.dff" )
+engineReplaceModel ( dff_1, 2399 )
+dff_2 = engineLoadDFF ( "sanjose2.dff" )
+engineReplaceModel ( dff_2, 2374 )
+dff_3 = engineLoadDFF ( "sanjose3.dff" )
+engineReplaceModel ( dff_3, 2383 )
+
+engineSetModelLODDistance(2399, 250)
+engineSetModelLODDistance(2374, 250)
+engineSetModelLODDistance(2383, 250)

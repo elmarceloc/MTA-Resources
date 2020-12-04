@@ -1,0 +1,19 @@
+<meta>
+    <info author="Zeta" name="Metro" version="1.0" type="script" />
+    
+    <file src="img/freight.txd" />
+    <file src="img/freight.dff" />
+	<file src="img/freiflat.txd" />
+    <file src="img/freiflat.dff" />
+	
+	<file src="img/streak.txd" />
+    <file src="img/streak.dff" />
+	<file src="img/streakc.txd" />
+    <file src="img/streakc.dff" />
+	
+	<file src="img/freibox.txd" />
+    <file src="img/freibox.dff" />
+	
+	
+    <script src="client/transformacion.lua" type="client" />
+</meta>

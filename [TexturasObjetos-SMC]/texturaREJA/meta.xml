@@ -1,0 +1,5 @@
+<meta>
+	<info author="Zeta" version="1.0" type="script" name="TexturaREJA" description="" showInResourceBrowser="true" />
+	<script src="client.lua" type="client" />
+	<file src="img/electricgate.txd" />
+</meta>

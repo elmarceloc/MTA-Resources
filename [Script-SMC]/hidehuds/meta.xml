@@ -1,0 +1,5 @@
+<meta>
+	<info author="VSCode MTA:SA Lua" type="script" name="hidehuds" />
+	<script src="c_hidehuds.lua" type="client" cache="false" />
+	<script src="s_hidehuds.lua" type="server" />
+</meta>

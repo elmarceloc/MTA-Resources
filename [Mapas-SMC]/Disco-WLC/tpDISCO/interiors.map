@@ -1,0 +1,5 @@
+<map>
+<interiorEntry	id="disco1"	posX="1043.16357"	posY="-1414.88806"	posZ="13.42377"	rotation="0"	dimension="0"	interior="0"	/>
+<interiorReturn	refid="disco1"	posX="996.38269"	posY="-1435.98242"	posZ="-39.40635"	rotation="180"	interior="0"	dimension="0"	/>
+</map>
+

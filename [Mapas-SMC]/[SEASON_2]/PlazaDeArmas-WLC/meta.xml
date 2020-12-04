@@ -1,0 +1,16 @@
+<meta>
+<info author="Zeta" name="PlazaDeArmas-WLC" version="1.0" type="script"/>
+
+	<!-- mapeo -->
+	<map src="PlazaDeArmas_map-WLC/PlazaDeArmas_map-WLC.map" dimension="0"></map>
+    <script src="PlazaDeArmas_map-WLC/mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="PlazaDeArmas_map-WLC/mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>
+	
+	<!-- texturas/objetos -->
+	<file src="cartelPlazaDeArmas/files/cartel.col" />
+	<file src="cartelPlazaDeArmas/files/cartel.txd" />
+    <file src="cartelPlazaDeArmas/files/cartel.dff" />
+	
+    <script src="cartelPlazaDeArmas/custom.lua" type="client" />
+	
+</meta>

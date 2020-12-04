@@ -1,0 +1,8 @@
+<meta>
+ <info author = "PRODY" description = "humvee_WLC" version = "1.0" type = "script" />
+ 
+ <script src = "client.lua" type = "client" />
+ <file src = "patriot.txd" />
+ <file src = "patriot.dff" />
+ 
+ </meta> 

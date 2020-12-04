@@ -1,0 +1,35 @@
+<meta>
+    <info author="Zeta" name="SkinMisterios-WLC" version="1.0" type="script" />
+    
+    <file src="img/bigfoot.txd" />
+    <file src="img/bigfoot.dff" />
+	
+	<file src="img/cavedemon.txd" />
+    <file src="img/cavedemon.dff" />
+	
+	<file src="img/jason.txd" />
+    <file src="img/jason.dff" />
+	
+	<file src="img/leatherface.txd" />
+    <file src="img/leatherface.dff" />
+	
+	<file src="img/lizard.txd" />
+    <file src="img/lizard.dff" />
+	
+	<file src="img/nemesis.txd" />
+    <file src="img/nemesis.dff" />
+	
+	<file src="img/nessie.txd" />
+    <file src="img/nessie.dff" />
+	
+	<file src="img/pigsy.txd" />
+    <file src="img/pigsy.dff" />
+	
+	<file src="img/samara.txd" />
+    <file src="img/samara.dff" />
+	
+	<file src="img/yeti.txd" />
+    <file src="img/yeti.dff" />
+	
+    <script src="client.lua" type="client" />
+</meta>

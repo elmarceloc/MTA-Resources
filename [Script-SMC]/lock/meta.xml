@@ -1,0 +1,8 @@
+<meta>
+	<script src="bloquear.lua" type="server" />
+	<script src="bloquear_gui.lua" type="client" />
+	<info author="lLinux" version="2.0.0" type="script" name="Block-vehicles"/>
+	<file src="images/lock.png" />
+	<file src="images/unlock.png" />
+	<file src="sounds/sonido.mp3" />
+</meta>

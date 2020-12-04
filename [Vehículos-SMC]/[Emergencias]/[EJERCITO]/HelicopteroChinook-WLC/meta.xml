@@ -1,0 +1,8 @@
+<meta>
+ <info author = "Zeta - Sitedogta" description = "HelicopteroChinook-WLC" version = "1.0" type = "script" />
+ 
+ <script src = "client.lua" type = "client" />
+ <file src = "cargobob.txd" />
+ <file src = "cargobob.dff" />
+ 
+ </meta> 

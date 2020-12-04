@@ -1,0 +1,6 @@
+<map>
+<interiorEntry	id="tortura-swat"	posX="-1442.1999511719"	posY="2565.1999511719"	posZ="54.799999237061"	rotation="0"	dimension="0"	interior="0"	/>
+<interiorReturn	refid="tortura-swat"	posX="-1482.9000244141"	posY="2609.6000976563"	posZ="24.5"	rotation="0"	interior="0"	dimension="0"	/>
+<interiorEntry	id="carcel-swat"	posX="-1390"	posY="2638.5"	posZ="55"	rotation="0"	dimension="0"	interior="0"	/>
+<interiorReturn	refid="carcel-swat"	posX="-1383.6999511719"	posY="2639.1999511719"	posZ="48.5"	rotation="0"	interior="0"	dimension="0"	/>
+</map>

@@ -1,0 +1,8 @@
+<meta>
+ <info author = "Anonimo" description = "CamionetaCNN-WLC" version = "1.0" type = "script" />
+ 
+ <script src = "client.lua" type = "client" />
+ <file src = "newsvan.txd" />
+ <file src = "newsvan.dff" />
+ 
+ </meta> 

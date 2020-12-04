@@ -1,0 +1,4 @@
+<meta>
+    <info author="Keven" name="Invisible" description="Get invisible whit /invisible" version="1.0.1" type="script" />
+    <script src="invisible.lua" type="server" />
+</meta>

@@ -1,0 +1,8 @@
+<meta>
+	<info author="Zeta" description="Textura-WLC" version="1" type="script" />
+	
+	<script src="shader.lua" type="client" />
+	<file src="shader.fx" />
+	<file src="img/1.png" />
+	
+</meta>

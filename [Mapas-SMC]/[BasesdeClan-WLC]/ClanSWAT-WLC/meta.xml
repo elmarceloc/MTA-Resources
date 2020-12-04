@@ -1,0 +1,24 @@
+<meta>
+<info author="Zeta - Prodigy" name="ClanSWAT-WLC" version="1.0" type="script"/>
+
+	<!-- mapeo -->
+	<map src="ClanSWAT_map-WLC/ClanSWAT_map-WLC.map" dimension="0"></map>
+    <script src="ClanSWAT_map-WLC/mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="ClanSWAT_map-WLC/mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>
+	
+	<!-- puerta -->
+	<script src="puertaSWAT/puerta.lua" type="server"></script>
+	<script src="puertaSWAT/client.lua" type="client"></script>
+	
+	<!-- tp -->
+	<script src="tpSWAT/interiorexp.lua" type="server" />
+	<script src="tpSWAT/interiors_client.lua" type="client" />
+	<script src="tpSWAT/client_anim.lua" type="client" />
+	<map src="tpSWAT/interiors.map" />
+
+	<export function="getInteriorMarker" type="server" />
+	<export function="getInteriorName" type="server" />
+	<export function="getInteriorMarker" type="client" />
+	<export function="getInteriorName" type="client" />
+	
+</meta>

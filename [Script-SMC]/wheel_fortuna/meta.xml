@@ -1,0 +1,13 @@
+<meta>
+	<info type="script" author="S.T.A.R.K" version="1.0.3" />
+
+	<script src="ferris_s.lua" type="server" />
+	<script src="data_pos.lua" type="server" />
+	<script src="ferris_c.lua" type="client" />
+  
+	<file src="fcabin.col" />
+
+    <settings>
+        <setting name="interval" value="[4000]"/>
+    </settings>
+</meta>

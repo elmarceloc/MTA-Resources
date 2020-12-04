@@ -1,0 +1,11 @@
+<meta>
+    <info author="Zeta" name="La Moneda - OBJETOS" version="1.0" type="script" />
+    
+	<file src="img/moneda.col" />
+    <file src="img/moneda.txd" />
+    <file src="img/moneda.dff" />
+	<file src="img/entrada.col" />
+    <file src="img/entrada.txd" />
+    <file src="img/entrada.dff" />
+    <script src="client/transformacion.lua" type="client" />
+</meta>

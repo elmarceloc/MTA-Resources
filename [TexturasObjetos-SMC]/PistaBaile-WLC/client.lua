@@ -1,0 +1,10 @@
+addEventHandler('onClientResourceStart', resourceRoot,
+function()
+local txd = engineLoadTXD('img/DanceFloors.txd')
+engineImportTXD(txd, 1250)
+local dff = engineLoadDFF('img/DanceFloor2.dff')
+engineReplaceModel(dff, 1250)
+local col = engineLoadCOL('img/DanceFloor2.col')
+engineReplaceCOL(col, 1250)
+engineSetModelLODDistance(1250, 100)
+end)

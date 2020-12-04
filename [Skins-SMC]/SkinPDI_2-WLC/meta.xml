@@ -1,0 +1,8 @@
+<meta>
+    <info author="Zeta" name="SkinPDI_2-WLC" version="1.0" type="script" />
+    
+    <file src="img/pdi2.txd" />
+    <file src="img/pdi2.dff" />
+	
+    <script src="client.lua" type="client" />
+</meta>

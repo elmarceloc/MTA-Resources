@@ -1,0 +1,7 @@
+<meta>
+<info author="MR.GRAND y reeditado por Marcelo y Darkilla" name="Sistema de chat priivado" type="script" version="2.0" description="Professional private chat system for chatting with players, The script has been created by MR.GRAND ." />
+<script src="Client.lua" type="client" />
+<script src="Server.lua"/>
+<file src="Wakeup.mp3" />
+<file src="Message.mp3" />
+</meta>

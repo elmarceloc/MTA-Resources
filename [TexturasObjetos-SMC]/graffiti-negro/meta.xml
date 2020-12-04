@@ -1,0 +1,4 @@
+<meta>
+    <script src="custom.lua" type="client" />
+    <file src="files/eastlstr_lae2.txd" />
+</meta>

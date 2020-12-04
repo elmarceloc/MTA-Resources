@@ -1,0 +1,24 @@
+<meta>
+<info author="Zeta - Vmericx" name="ClanFACH-WLC" version="1.0" type="script"/>
+
+	<!-- mapeo -->
+	<map src="ClanFACH_map-WLC/ClanFACH_map-WLC.map" dimension="0"></map>
+    <script src="ClanFACH_map-WLC/mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="ClanFACH_map-WLC/mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>
+	
+	<!-- puerta -->
+	<script src="puertaFACH/puerta.lua" type="server"></script>
+	<script src="puertaFACH/client.lua" type="client"></script>
+	
+	<!-- tp -->
+	<script src="tpFACH/interiorexp.lua" type="server" />
+	<script src="tpFACH/interiors_client.lua" type="client" />
+	<script src="tpFACH/client_anim.lua" type="client" />
+	<map src="tpFACH/interiors.map" />
+
+	<export function="getInteriorMarker" type="server" />
+	<export function="getInteriorName" type="server" />
+	<export function="getInteriorMarker" type="client" />
+	<export function="getInteriorName" type="client" />
+	
+</meta>

@@ -1,0 +1,6 @@
+<meta>
+    <script src="custom.lua" type="client" />
+    <file src="files/kfc.txd" />
+    <file src="files/kfc.dff" />
+    <file src="files/kfc.col" />
+</meta>

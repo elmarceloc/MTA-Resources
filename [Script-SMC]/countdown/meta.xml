@@ -1,0 +1,17 @@
+<meta>
+<info author="Rockero"  type="script" version="1.0.0" description="Countdown with voice and images -First Vertion-"/>
+	<script src="C_c.luac" type="client" />
+              <script src="C_s.luac" type="server" />
+	<file src="Utilitys/5c.mp3" />
+	<file src="Utilitys/4c.mp3" />
+	<file src="Utilitys/3c.mp3" />
+	<file src="Utilitys/2c.mp3" />
+	<file src="Utilitys/1c.mp3" />
+	<file src="Utilitys/Goc.mp3" />
+	<file src="Utilitys/1.png" />
+	<file src="Utilitys/2.png" />
+	<file src="Utilitys/3.png" />
+	<file src="Utilitys/4.png" />
+	<file src="Utilitys/5.png" />
+	<file src="Utilitys/Go.png" />
+</meta>

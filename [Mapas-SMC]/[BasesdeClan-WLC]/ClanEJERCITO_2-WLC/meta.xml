@@ -1,0 +1,24 @@
+<meta>
+<info author="Zeta - Prody" name="ClanEJERCITO_2-WLC" version="1.0" type="script"/>
+
+	<!-- mapeo -->
+	<map src="ClanEJERCITO_2_map-WLC/ClanEJERCITO_2_map-WLC.map" dimension="0"></map>
+    <script src="ClanEJERCITO_2_map-WLC/mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="ClanEJERCITO_2_map-WLC/mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>
+	
+	<!-- puerta -->
+	<script src="puertaEJERCITO2/puerta.lua" type="server"></script>
+	<script src="puertaEJERCITO2/client.lua" type="client"></script>
+	
+	<!-- tp -->
+	<script src="tpEJERCITO2/interiorexp.lua" type="server" />
+	<script src="tpEJERCITO2/interiors_client.lua" type="client" />
+	<script src="tpEJERCITO2/client_anim.lua" type="client" />
+	<map src="tpEJERCITO2/interiors.map" />
+
+	<export function="getInteriorMarker" type="server" />
+	<export function="getInteriorName" type="server" />
+	<export function="getInteriorMarker" type="client" />
+	<export function="getInteriorName" type="client" />
+	
+</meta>

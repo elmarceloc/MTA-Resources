@@ -1,0 +1,16 @@
+<meta>
+<info author="Zeta - ElvioLao" name="Iglesia-WLC" version="1.0" type="script"/>
+<oop>true</oop>
+	<!-- mapeo -->
+	<map src="IGLESIA_map-WLC/IGLESIA_map-WLC.map" dimension="0"></map>
+    <script src="IGLESIA_map-WLC/mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="IGLESIA_map-WLC/mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>
+
+	<!-- texturas -->
+	<script src="texturaIGLESIA/client.lua" type="client" />
+	<file src="texturaIGLESIA/img/factory_door.txd" />
+	<file src="texturaIGLESIA/img/xref_garagedoor.dff" />
+	<file src="texturaIGLESIA/img/dockcargof_las.txd" />
+	<file src="texturaIGLESIA/img/xenon_sfse.txd" />
+	<file src="texturaIGLESIA/img/vgsschurch.txd" />
+</meta>

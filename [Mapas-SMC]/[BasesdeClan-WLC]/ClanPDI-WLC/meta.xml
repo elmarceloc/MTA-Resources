@@ -1,0 +1,28 @@
+<meta>
+<info author="Zeta - ElvioLao" name="ClanPDI-WLC" version="1.0" type="script"/>
+
+	<!-- mapeo -->
+	<map src="ClanPDI_map-WLC/ClanPDI_map-WLC.map" dimension="0"></map>
+    <script src="ClanPDI_map-WLC/mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="ClanPDI_map-WLC/mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>
+	
+	<!-- puerta -->
+	<script src="puertaPDI/puerta.lua" type="server"></script>
+	<script src="puertaPDI/client.lua" type="client"></script>
+	
+	<!-- tp -->
+	<script src="tpPDI/interiorexp.lua" type="server" />
+	<script src="tpPDI/interiors_client.lua" type="client" />
+	<script src="tpPDI/client_anim.lua" type="client" />
+	<map src="tpPDI/interiors.map" />
+
+	<export function="getInteriorMarker" type="server" />
+	<export function="getInteriorName" type="server" />
+	<export function="getInteriorMarker" type="client" />
+	<export function="getInteriorName" type="client" />
+	
+	<!-- texturas -->
+	<script src="texturaPDI/client.lua" type="client" />
+	<file src="texturaPDI/img/rodeo03_law2.txd" />
+	
+</meta>

@@ -1,0 +1,4 @@
+<meta>
+	<info author="Dutchman101" version="1.0" name="Unoccupied vehicle destroy" type="script" /> 
+	<script src="remover.lua" type="server" />
+</meta>

@@ -1,0 +1,6 @@
+<meta>
+    <script src="custom.lua" type="client" />
+    <file src="files/ripley.txd" />
+    <file src="files/ripley.dff" />
+    <file src="files/ripley.col" />
+</meta>

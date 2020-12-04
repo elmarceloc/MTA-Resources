@@ -1,0 +1,4 @@
+<meta>
+    <script src="custom.lua" type="client" />
+    <file src="files/lasground_las2.txd" />
+</meta>

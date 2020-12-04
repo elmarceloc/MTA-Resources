@@ -1,0 +1,71 @@
+<meta>
+	<info author="Dealman" name="Radio Script" version="1.0" type="script"/>
+	
+	<script src="Client.lua" cache="true" type="client"/>
+	
+	<script src="vehicle_speaker_c.lua" type="client"/>
+	<script src="vehicle_speaker_s.lua" type="server"/>
+
+	<export function="showGUI" type="client"/>
+	<export function="show" type="client"/>
+	<export function="hide" type="client"/>
+	<!-- Musica para vehiculos -->
+
+	<file src="music/sentaodepana.ogg" />
+	<file src="music/c90.ogg" />
+
+
+	<file src="Img/PlayButton.png"/>
+	<file src="Img/PlayButtonHover.png"/>
+	<file src="Img/StopButton.png"/>
+	<file src="Img/StopButtonHover.png"/>
+	<file src="Img/PreviousButton.png"/>
+	<file src="Img/PreviousButtonHover.png"/>
+	<file src="Img/NextButton.png"/>
+	<file src="Img/NextButtonHover.png"/>
+	<file src="Img/Test.png"/>
+	<file src="Img/Test2.png"/>
+	<file src="Img/Test3.png"/>
+	<file src="Img/Test4.png"/>
+
+
+	<file src="logos/1.png"/>
+	<file src="logos/2.png"/>
+	<file src="logos/3.png"/>
+	<file src="logos/4.png"/>
+	<file src="logos/5.png"/>
+	<file src="logos/6.png"/>
+	<file src="logos/7.png"/>
+	<file src="logos/8.png"/>
+	<file src="logos/9.png"/>
+	<file src="logos/10.png"/>
+	<file src="logos/11.png"/>
+	<file src="logos/12.png"/>
+	<file src="logos/13.png"/>
+	<file src="logos/14.png"/>
+	<file src="logos/15.png"/>
+	<file src="logos/16.png"/>
+	<file src="logos/17.png"/>
+	<file src="logos/18.png"/>
+	<file src="logos/19.png"/>
+	<file src="logos/20.png"/>
+	<file src="logos/21.png"/>
+	<file src="logos/22.png"/>
+	<file src="logos/23.png"/>
+	<file src="logos/24.png"/>
+	<file src="logos/25.png"/>
+	<file src="logos/26.png"/>
+	<file src="logos/27.png"/>
+	<file src="logos/28.png"/>
+	<file src="logos/29.png"/>
+	<file src="logos/30.png"/>
+	<file src="logos/31.png"/>
+<!--	<file src="logos/32.png"/>-->
+	<file src="Img/Info.png"/>
+	<file src="Font/PDZ.ttf"/>
+
+	<file src="vehicles_music.xml" type="client" />
+
+
+
+</meta>

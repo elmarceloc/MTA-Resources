@@ -1,0 +1,11 @@
+<meta>
+    <info author="Platin" name="Lava Event" version="1.0.2" type="script"/>
+	
+	<script src="client.lua" type="client"/>
+	<script src="client_util.lua" type="client"/>
+	<script src="server.lua" type="server"/>
+	
+	<file src="sounds/lava.mp3"/>
+	<file src="texturas/lava.png"/>
+	<file src="texturas/textureChanger.fx"/>
+</meta>

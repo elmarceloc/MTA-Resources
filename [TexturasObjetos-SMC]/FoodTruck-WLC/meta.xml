@@ -1,0 +1,14 @@
+<meta>
+<info author="Zeta" name="FoodTrucks-WLC" version="1.0" type="script"/>
+
+	<file src="img/foodtruck1.col" />
+	<file src="img/foodtruck2.col" />
+	
+	<file src="img/foodtruck.txd" />
+	
+	<file src="img/foodtruck1.dff" />
+	<file src="img/foodtruck2.dff" />
+	
+    <script src="client.lua" type="client" />
+	
+</meta>

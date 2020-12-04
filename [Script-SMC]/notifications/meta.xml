@@ -1,0 +1,8 @@
+<meta>
+	<info author="VSCode MTA:SA Lua" type="script" name="notifications" />
+	<script src="client.lua" type="client" cache="false" />
+	<script src="server.lua" type="server" cache="false" />
+
+	<export function="createNotification" type="client"/>
+	<export function="mensaje" type="server"/>
+</meta>

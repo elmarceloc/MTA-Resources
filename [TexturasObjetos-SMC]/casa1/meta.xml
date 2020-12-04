@@ -1,0 +1,6 @@
+<meta>
+    <script src="custom.lua" type="client" />
+    <file src="files/casa1.txd" />
+    <file src="files/casa1.dff" />
+    <file src="files/casa1.col" />
+</meta>

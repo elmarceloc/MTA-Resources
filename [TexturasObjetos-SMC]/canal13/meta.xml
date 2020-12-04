@@ -1,0 +1,5 @@
+<meta>
+    <script src="custom.lua" type="client" />
+    <file src="files/canal13.txd" />
+    <file src="files/canal13.dff" />
+</meta>

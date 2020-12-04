@@ -1,0 +1,90 @@
+<meta>
+
+	<info description="Panel de Máscaras" name="Panel de Máscaras" type="script" version="1.0" author="ShockWave"/>
+	
+	<script src="client.lua" type="client" />
+	<script src="server.lua" type="server" />
+	
+	<export function="togglePanel" type="client" />
+	<export function="closePanel" type="client" />
+
+	<export function="updateMask" type="client" />
+	<export function="updateMask" type="client" />
+
+
+	<file src="mascaras.xml" type="server" />
+
+
+	<file src="object/mask_devil.txd"/> 
+	<file src="object/mask_devil.dff"/>	
+
+	<file src="object/mask_guyfawkes.txd"/> 
+	<file src="object/mask_guyfawkes.dff"/>
+
+	<file src="object/mask_darthvader.txd"/> 
+	<file src="object/mask_darthvader.dff"/>
+
+	<file src="object/bordobereli.txd"/> 
+	<file src="object/bordobereli.dff"/>
+
+	<file src="object/hat_cowboy.txd"/> 
+	<file src="object/hat_cowboy.dff"/>
+
+	<file src="object/mask_alien.txd"/> 
+	<file src="object/mask_alien.dff"/>
+
+	<file src="object/mask_cat.txd"/> 
+	<file src="object/mask_cat.dff"/>
+
+	<file src="object/mask_dog.txd"/> 
+	<file src="object/mask_dog.dff"/>
+
+	<file src="object/mask_baby.txd"/> 
+	<file src="object/mask_baby.dff"/>
+
+	<file src="object/mask_monkey.txd"/> 
+	<file src="object/mask_monkey.dff"/>
+
+	<file src="object/mask_owl.txd"/> 
+	<file src="object/mask_owl.dff"/>
+
+	<file src="object/mask_raccoon.txd"/> 
+	<file src="object/mask_raccoon.dff"/>
+
+	<file src="object/mask_skull.txd"/> 
+	<file src="object/mask_skull.dff"/>
+
+	<file src="object/mask_vampire.txd"/> 
+	<file src="object/mask_vampire.dff"/>
+
+	<file src="object/mask_zombie.txd"/> 
+	<file src="object/mask_zombie.dff"/>
+
+	<file src="object/mask_monster.txd"/> 
+	<file src="object/mask_monster.dff"/>
+
+	<file src="object/mask_gas.txd"/> 
+	<file src="object/mask_gas.dff"/>
+
+	<file src="object/mask_fox.txd"/> 
+	<file src="object/mask_fox.dff"/>
+
+	<file src="object/mask_bag.txd"/> 
+	<file src="object/mask_bag.dff"/>
+
+	<file src="object/admin.txd"/> 
+	<file src="object/admin.dff"/>
+
+	<file src="object/celikyelek.txd"/> 
+	<file src="object/celikyelek.dff"/>
+
+	<file src="object/celikyelek2.txd"/> 
+	<file src="object/celikyelek2.dff"/>
+
+	<file src="object/celikyelek3.txd"/> 
+	<file src="object/celikyelek3.dff"/>
+
+
+
+
+</meta>

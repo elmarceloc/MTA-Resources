@@ -1,0 +1,11 @@
+<meta>
+	<info name="Cortes" author="Editado Por FASTRIX" version="1.5.2" type="script" />
+	<script src="backfire_server.lua" type="server"/>
+	<script src="backfire_client.lua" type="client"/>
+	
+	<file src="sound/backfire1.wav" />
+	<file src="sound/backfire2.wav" />
+	
+	<file src="backfire_settings.xml" />
+
+</meta>

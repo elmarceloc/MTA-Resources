@@ -1,0 +1,11 @@
+<meta>
+    <info author="xXMADEXx Editado Por :Kevin" name="Sound 3D" type="script" version="1.5" />
+	<min_mta_version server="1.3.4-0.00000" client="1.3.4-0.00000" />
+	
+    <script src="server.lua" />
+	<script src="client.lua" type="client" />
+	
+    <file src="fonts/EmblemaOne.ttf"/>
+	
+    <file src="image/slider_end.png"/>
+</meta>

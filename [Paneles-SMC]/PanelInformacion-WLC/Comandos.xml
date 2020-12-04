@@ -1,0 +1,45 @@
+<cmd>
+COMANDOS DEL SERVIDOR:
+
+* /discord: Discord del servidor Freeroam
+
+* /report: Para reportar conductas indebidas de un jugador
+  - Si lo utiliza de mala manera, recibirá sanción
+
+* /coronavirus: Tabla con contagios actualizados del país
+
+* /sentar: Animación de sentarse
+
+* /levantar: Animación de levantarse
+
+* /tuning: Panel de Tunnig (SOLO FUNCIONA DENTRO DE UN VEHICULO)
+
+* /graffiti: Panel de Graffitis
+
+
+ATAJOS/TECLAS DEL SERVIDOR:
+
+* F1: Activa un panel con opciones variadas para utilizar en el servidor
+
+* F2: Activa un panel con opciones de teletransportación
+
+* F3: Activa un panel de modificacion para tu vehiculo (SOLO SE PUEDE ACTIVAR DENTRO DE UN VEHICULO)
+
+* F5: Panel de Animaciones (PRONTO)
+
+* F6: Esconde HUDS (radar y barra de vida) de la pantalla
+
+* F7: Activa un panel con variados estilos al caminar
+
+* F8: Consola del servidor
+
+* Número 1: Activa una rueda con animaciones y sonidos unicos para skins (Funciona solo con algunas)
+
+* X: Te permite quedarte pegado al techo de un vehiculo, se desactiva con la misma tecla (Solo es posible usarlo al estar en el techo de cualquier vehiculo)
+
+* K: Control crucero, le permite mantener una determinada velocidad (se desactiva con la misma tecla)
+
+* Shift + Flecha Izq/Flecha Der: Regula el volumen de la radio (SOLO FUNCIONA DENTRO DE UN VEHICULO)
+
+* L: Bloquea/desbloquea las puertas de su vehículo (SOLO FUNCIONA DENTRO DE UN VEHICULO)
+</cmd>

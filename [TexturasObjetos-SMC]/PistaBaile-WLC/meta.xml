@@ -1,0 +1,9 @@
+<meta>
+    <info author="Zeta" name="PistaBaile-WLC" version="1.0" type="script" />
+    
+    <file src="img/DanceFloors.txd" />
+    <file src="img/DanceFloor2.dff" />
+	<file src="img/DanceFloor2.col" />
+	
+    <script src="client.lua" type="client" />
+</meta>

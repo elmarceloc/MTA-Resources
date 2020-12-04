@@ -1,0 +1,8 @@
+<meta>
+ <info author = "Daigo" description = "SkinIncoludido-WLC" version = "1.0" type = "script" />
+ 
+ <script src = "client.lua" type = "client" />
+ <file src = "incoludido.txd" />
+ <file src = "incoludido.dff" />
+ 
+ </meta> 

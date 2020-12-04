@@ -1,0 +1,10 @@
+<meta>
+    <info author="Zeta" name="LogosClan-WLC" version="1.0" type="script"/>
+    <file src="Logos/logos01.txd" />
+	<file src="Logos/logos02.txd" />
+	<file src="Logos/logos03.txd" />
+	<file src="Logos/logos04.txd" />
+	<file src="Logos/logo_scu.txd" />
+    <script src="client.lua" type="client" />
+	
+</meta>

@@ -1,0 +1,13 @@
+<help popup="no">Chat Icon
+ 
+/toggleicon
+You can toggle your own chat icon on / off with /toggleicon
+Keeping in mind that this will only affect you, as others will still be able to see your typing icon.
+ 
+/resizeicon ##
+You can resize all icons with /resizeicon [new%]
+For example, /resizeicon 50 will make all icons 50% of normal size.
+ 
+/seticonalpha ##
+You can edit the transparency of all icons with /seticonalpha [new%]
+For example, /seticonalpha 75 will make all chat icons 75% visible</help>

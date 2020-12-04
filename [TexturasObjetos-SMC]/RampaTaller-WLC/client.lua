@@ -1,0 +1,7 @@
+col_elevador = engineLoadCOL ( "elevador.col" )
+engineReplaceCOL ( col_elevador, 1580 )
+txd_elevador = engineLoadTXD ( "elevador.txd" )
+engineImportTXD ( txd_elevador, 1580 )
+dff_elevador = engineLoadDFF ( "elevador.dff" )
+engineReplaceModel ( dff_elevador, 1580 )
+engineSetModelLODDistance(1580, 50)

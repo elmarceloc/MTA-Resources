@@ -1,0 +1,10 @@
+<meta>
+	<info author="Zeta" version="1.0" type="script" name="PortaAviones-WLC" description="PortaAviones-WLC" showInResourceBrowser="true" />
+	
+	<script src="client.lua" type="client" />
+
+	<file src="img/portaaviones.col" />
+	<file src="img/portaaviones.txd" />
+	<file src="img/portaaviones.dff" />
+	
+</meta>

@@ -1,0 +1,6 @@
+<meta>
+	<info author="Pity" description="Guarda armas y otros datos de los jugadores" name="Save System 2018" version="1.0" type="script" />
+	<script src="s_DatosTemporales.lua" type="server"/>
+	<script src="s_GuardarDatos.lua" type="server"/>
+	<script src="s_ObtenerDatos.lua" type="server"/>
+</meta>

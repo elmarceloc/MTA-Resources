@@ -1,0 +1,9 @@
+<meta>
+ <info author="Zeta" type="script" version="1.0"></info>
+
+    <script src="client.lua" type="client" />
+	<file src="elevador.col" />
+    <file src="elevador.txd" />
+    <file src="elevador.dff" />
+
+</meta>

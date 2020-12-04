@@ -1,0 +1,5 @@
+<meta>
+    <script src="custom.lua" type="client" />
+    <file src="files/sunset02_law2.txd" />
+    <file src="files/sunset07_law2.dff" />
+</meta>

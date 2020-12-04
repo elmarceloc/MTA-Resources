@@ -1,0 +1,25 @@
+<meta>
+<info author="Zeta - Weaita - IFiorinag" name="TorreTelefonica-WLC" version="1.0" type="script"/>
+
+	<!-- mapeo -->
+	<map src="TorreTelefonica_map-WLC/TorreTelefonica_map-WLC.map" dimension="0"></map>
+    <script src="TorreTelefonica_map-WLC/mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="TorreTelefonica_map-WLC/mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>
+	
+	<!-- texturas/objetos -->
+	<file src="TorreTelefonica_objetos-WLC/img/torretelefonica.col" />
+	<file src="TorreTelefonica_objetos-WLC/img/torretelefonica.txd" />
+    <file src="TorreTelefonica_objetos-WLC/img/torretelefonica.dff" />
+	
+	<file src="TorreTelefonica_objetos-WLC/img/pisotelefonica.col" />
+	<file src="TorreTelefonica_objetos-WLC/img/pisotelefonica.txd" />
+	<file src="TorreTelefonica_objetos-WLC/img/pisotelefonica.dff" />
+	
+	<file src="TorreTelefonica_objetos-WLC/img/logomovistar.col" />
+	<file src="TorreTelefonica_objetos-WLC/img/logomovistar.txd" />
+	<file src="TorreTelefonica_objetos-WLC/img/logomovistar.dff" />
+
+	
+    <script src="TorreTelefonica_objetos-WLC/client.lua" type="client" />
+	
+</meta>

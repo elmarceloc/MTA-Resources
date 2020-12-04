@@ -1,0 +1,20 @@
+<meta>
+	<info author="Zeta" version="1.0" type="script" name="Pared-WLC" description="Pared-WLC" showInResourceBrowser="true" />
+	<script src="client.lua" type="client" />
+	
+	<file src="img/pared6.col" />
+	<file src="img/PantallaVerde.col" />
+	
+	<file src="img/pared1.txd" />
+	<file src="img/pared2.txd" />
+	<file src="img/pared3.txd" />
+	<file src="img/pared4.txd" />
+	<file src="img/pared5.txd" />
+	<file src="img/pared6.txd" />
+	<file src="img/PantallaVerde.txd" />
+	
+	<file src="img/pared6.dff" />
+	<file src="img/PantallaVerde.dff" />
+	
+	
+</meta>

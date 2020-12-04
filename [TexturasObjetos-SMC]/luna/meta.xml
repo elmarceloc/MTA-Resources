@@ -1,0 +1,8 @@
+<meta>
+	<info author = "Outlaw187187" name = "Moon_logo" description = "Custom Moon" type = "script" version = "1.0.0" />
+	
+	<script src = "client.lua" type = "client" />
+	
+	<file src = "moon.png" />
+	<file src = "repshader.fx" />
+</meta>

@@ -1,0 +1,15 @@
+<meta>
+	<info author="Marslo" type="script" name="sounds" />
+	<script src="client.lua" type="client" cache="false" />
+	<script src="server.lua" type="server" />
+
+	<file src="sounds/fornite.ogg" />
+	<file src="sounds/lacancion.ogg" />
+	<file src="sounds/clubpenguin.ogg" />
+	<file src="sounds/gangnam.ogg" />
+	<file src="sounds/moonwalk.ogg" />
+	<file src="sounds/twerk.ogg" />
+	<file src="sounds/banana.ogg" />
+
+	<export function="sendsound" type="client" />
+</meta>

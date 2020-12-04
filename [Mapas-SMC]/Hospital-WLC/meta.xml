@@ -1,0 +1,32 @@
+<meta>
+<info author="Zeta" name="Hospital-WLC" version="1.0" type="script"/>
+
+	<!-- mapeo -->
+	<map src="Hospital_map-WLC.map" dimension="0"></map>
+    <!-- <script src="mapEditorScriptingExtension_s.lua" type="server"></script> 
+    <script src="mapEditorScriptingExtension_c.lua" type="client" validate="false"></script> -->
+	
+	<!-- objetos -->
+	<script src="client.lua" type="client" />
+	<file src="sanjose1.col" />
+    <file src="sanjose2.col" />
+    <file src="sanjose3.col" />
+	
+	<file src="sanjose.txd" />
+	
+	<file src="sanjose1.dff" />
+    <file src="sanjose2.dff" />
+    <file src="sanjose3.dff" />
+	
+	<!-- tp -->
+	<script src="tpHOSPITAL/interiorexp.lua" type="server" />
+	<script src="tpHOSPITAL/interiors_client.lua" type="client" />
+	<script src="tpHOSPITAL/client_anim.lua" type="client" />
+	<map src="tpHOSPITAL/interiors.map" />
+
+	<export function="getInteriorMarker" type="server" />
+	<export function="getInteriorName" type="server" />
+	<export function="getInteriorMarker" type="client" />
+	<export function="getInteriorName" type="client" />
+	
+</meta>

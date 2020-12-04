@@ -1,0 +1,4 @@
+<map>
+<interiorEntry	id="hospital1"	posX="-1994.27563"	posY="2508.24243"	posZ="999.32886"	rotation="0"	dimension="0"	interior="0"	/>
+<interiorReturn	refid="hospital1"	posX="2034.04553"	posY="-1402.42554"	posZ="17.29360"	rotation="0"	interior="0"	dimension="0"	/>
+</map>

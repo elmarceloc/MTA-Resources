@@ -1,0 +1,5 @@
+<meta>
+	<info author="Zeta" version="1.0" type="script" name="TexturaEntrada-WLC" description="" showInResourceBrowser="true" />
+	<script src="client.lua" type="client" />
+	<file src="img/law2misc_lax.txd" />
+</meta>

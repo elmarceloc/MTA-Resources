@@ -1,0 +1,6 @@
+<meta>
+     <info author="atahanacar" type="script" name="Staff tools" description="Tools for admins" version = "2.0"/>
+     <script src="server.lua" />
+     <script src="client.lua" type="client" />
+	 <oop>true</oop>
+</meta>

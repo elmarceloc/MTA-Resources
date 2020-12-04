@@ -1,0 +1,6 @@
+<map>
+<interiorEntry	id="ejercito1"	posX="-1535.29785"	posY="2574.70142"	posZ="55.83594"	rotation="0"	dimension="0"	interior="0"	/>
+<interiorReturn	refid="ejercito1"	posX="-1524.25256"	posY="2574.02515"	posZ="39.17031"	rotation="0"	interior="0"	dimension="0"	/>
+<interiorEntry	id="ejercito2"	posX="-1476"	posY="2564.47559"	posZ="58.50781"	rotation="0"	dimension="0"	interior="0"	/>
+<interiorReturn	refid="ejercito2"	posX="-1484.80896"	posY="2557.81543"	posZ="30.62969"	rotation="0"	interior="0"	dimension="0"	/>
+</map>

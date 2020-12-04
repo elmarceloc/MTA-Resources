@@ -1,0 +1,6 @@
+<meta>
+    <script src="custom.lua" type="client" />
+    <file src="files/cartel.txd" />
+    <file src="files/cartel.dff" />
+    <file src="files/cartel.col" />
+</meta>

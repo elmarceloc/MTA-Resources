@@ -1,0 +1,33 @@
+---------------------------
+-      Countdown V 1.0.0           -
+-        Made By Rockero             -
+---------------------------
+
+Description: Countdown from 5 to Go (5,4,3,2,1,Go) with:
+
+*Admin acc check
+*Custom Images
+*Custom Sounds
+*Colored Images
+
+If u want u can Change the sounds or Images...
+
+Just replace in the utilities folder a pic or sound (use the same name)
+
+Sounds:
+5c.mp3
+4c.mp3
+3c.mp3
+2c.mp3
+1c.mp3
+Goc.mp3
+
+Pics:
+1.png
+2.png
+3.png
+4.png
+5.png
+Go.png
+
+Hope u like! Rate.

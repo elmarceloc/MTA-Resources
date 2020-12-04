@@ -1,0 +1,20 @@
+<meta>
+<info author="Zeta" name="MansionesCasas-WLC" version="1.0" type="script"/>
+
+	<file src="img/Textures.txd" />
+    <file src="img/Base.dff" />
+	<file src="img/Base.col" />
+	<file src="img/Garage_Furniture.dff" />
+	<file src="img/Garage_Furniture.col" />
+	<file src="img/Glass.dff" />
+	<file src="img/Glass.col" />
+	<file src="img/Lower_Furniture.dff" />
+	<file src="img/Lower_Furniture.col" />
+	<file src="img/Outside_Furniture.dff" />
+	<file src="img/Outside_Furniture.col" />
+	<file src="img/Upper_Furniture.dff" />
+	<file src="img/Upper_Furniture.col" />
+	
+    <script src="client.lua" type="client" />
+	
+</meta>

@@ -1,0 +1,6 @@
+<meta>
+    <script src="client.lua" type="client" />
+    <file src="dust2.dff" />
+    <file src="dust2.txd" />
+    <file src="dust2.col" />
+</meta>

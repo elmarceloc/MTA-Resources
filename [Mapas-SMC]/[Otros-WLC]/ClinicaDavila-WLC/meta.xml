@@ -1,0 +1,22 @@
+<meta>
+<info author="Zeta - ElvioLao" name="ClanFACH-WLC" version="1.0" type="script"/>
+<oop>true</oop>
+	<!-- mapeo -->
+	<map src="ClinicaDavila_map-WLC/ClinicaDavila_map-WLC.map" dimension="0"></map>
+    <script src="ClinicaDavila_map-WLC/mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="ClinicaDavila_map-WLC/mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>
+	
+	<!-- texturas -->
+	<script src="texturaCLINICADAVILA/client.lua" type="client" />
+	<file src="texturaCLINICADAVILA/hospital.txd" />
+	<file src="texturaCLINICADAVILA/hospital.col" />
+	<file src="texturaCLINICADAVILA/hospital.dff" />
+	
+	<file src="texturaCLINICADAVILA/quarto1.txd" />
+	<file src="texturaCLINICADAVILA/quarto1.col" />
+	<file src="texturaCLINICADAVILA/quarto1.dff" />
+	
+	<file src="texturaCLINICADAVILA/cunts_gunclub.txd" />
+	<file src="texturaCLINICADAVILA/a51vntcvx.txd" />
+	
+</meta>

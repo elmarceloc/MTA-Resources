@@ -1,0 +1,6 @@
+<meta>
+    <script src="custom.lua" type="client" />
+    <file src="files/jumbo.txd" />
+    <file src="files/jumbo.dff" />
+    <file src="files/jumbo.col" />
+</meta>

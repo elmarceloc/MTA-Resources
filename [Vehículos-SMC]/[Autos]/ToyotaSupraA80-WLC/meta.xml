@@ -1,0 +1,8 @@
+<meta>
+ <info author = "Anonimo" description = "ToyotaSupraA80-WLC" version = "1.0" type = "script" />
+ 
+ <script src = "client.lua" type = "client" />
+ <file src = "supergt.txd" />
+ <file src = "supergt.dff" />
+ 
+ </meta> 

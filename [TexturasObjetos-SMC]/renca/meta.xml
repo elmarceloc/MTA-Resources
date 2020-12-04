@@ -1,0 +1,6 @@
+<meta>
+    <script src="custom.lua" type="client" />
+    <file src="files/renca.txd" />
+    <file src="files/renca.dff" />
+    <file src="files/renca.col" />
+</meta>

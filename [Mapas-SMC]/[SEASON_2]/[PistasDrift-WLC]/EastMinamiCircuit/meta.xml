@@ -1,0 +1,12 @@
+<meta>
+<info author="Zeta" name="EastMinamiCircuit-WLC" version="1.0" type="script"/>
+
+	<script src="EastMinami_map-WLC.lua" type="server" />
+	
+    <file src="EastMinami.col" />
+    <file src="EastMinami.txd" />
+    <file src="EastMinami.dff" />
+	
+	<script src="client.lua" type="client" />
+	
+</meta>

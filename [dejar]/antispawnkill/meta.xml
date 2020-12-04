@@ -1,0 +1,6 @@
+<meta>
+	<info author="Marcelo" type="script" name="antispawnkill" />
+	<script src="c_antispawnkill.lua" type="client" cache="false" />
+
+	<export function="setT"  type="client"/>
+</meta>

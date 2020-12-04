@@ -1,0 +1,6 @@
+<meta>
+    <script src="custom.lua" type="client" />
+    <file src="files/easy.txd" />
+    <file src="files/easy.dff" />
+    <file src="files/easy.col" />
+</meta>

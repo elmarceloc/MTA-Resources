@@ -1,0 +1,6 @@
+<meta>
+    <script src="custom.lua" type="client" />
+    <file src="files/negro.txd" />
+    <file src="files/negro.dff" />
+    <file src="files/negro.col" />
+</meta>

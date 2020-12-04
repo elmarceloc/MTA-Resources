@@ -1,0 +1,13 @@
+<meta>
+<info author="Zeta" name="Nakayubi-WLC" version="1.0" type="script"/>
+
+	<map src="Nakayubi_map-WLC.map" dimension="0"></map>
+    
+    <file src="nakayubi.dff" />
+    <file src="nakayubi.col" />
+    <file src="nakayubi.txd" />
+	
+	<script src="client.lua" type="client" />
+
+	
+</meta>

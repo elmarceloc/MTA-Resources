@@ -1,0 +1,16 @@
+<meta>
+<info author="Zeta" name="PortaAviones-WLC" version="1.0" type="script"/>
+
+	<!-- mapeo -->
+	<map src="PortaAviones_map-WLC/PortaAviones_map-WLC.map" dimension="0"></map>
+    <script src="PortaAviones_map-WLC/mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="PortaAviones_map-WLC/mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>
+	
+	<!-- texturas/objetos -->
+	<file src="PortaAviones_objetos-WLC/img/portaaviones.col" />
+	<file src="PortaAviones_objetos-WLC/img/portaaviones.txd" />
+    <file src="PortaAviones_objetos-WLC/img/portaaviones.dff" />	
+	
+    <script src="PortaAviones_objetos-WLC/client.lua" type="client" />
+	
+</meta>

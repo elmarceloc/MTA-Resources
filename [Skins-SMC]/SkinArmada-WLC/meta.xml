@@ -1,0 +1,8 @@
+<meta>
+    <info author="Zeta" name="SkinArmada-WLC" version="1.0" type="script" />
+    
+    <file src="img/armada.txd" />
+    <file src="img/armada.dff" />
+	
+    <script src="client.lua" type="client" />
+</meta>

@@ -1,0 +1,16 @@
+
+txd = engineLoadTXD ( "img/moneda.txd" )
+engineImportTXD ( txd, 5704 )
+col = engineLoadCOL ( "img/moneda.col" )
+engineReplaceCOL ( col, 5704 )
+dff = engineLoadDFF ( "img/moneda.dff" )
+engineReplaceModel ( dff, 5704 )
+engineSetModelLODDistance(5704, 5000)
+
+txd = engineLoadTXD ( "img/entrada.txd" )
+engineImportTXD ( txd, 5812 )
+col = engineLoadCOL ( "img/entrada.col" )
+engineReplaceCOL ( col, 5812 )
+dff = engineLoadDFF ( "img/entrada.dff" )
+engineReplaceModel ( dff, 5812 )
+engineSetModelLODDistance(5812, 5000)

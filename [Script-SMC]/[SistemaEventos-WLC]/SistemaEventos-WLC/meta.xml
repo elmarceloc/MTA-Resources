@@ -1,0 +1,41 @@
+<meta>
+	<info author="elison" name="eventos" type="script" version="1.0" />
+	<script src="event-server.lua" type="server" />
+	<script src="event-client.lua" type="client" />
+	
+	<script src="Eventos/Ev1/Eve1_s.lua" type="server" />
+	<map src="Eventos/Ev1/Eve1_Map.map" dimension="2"></map>
+	
+	<script src="Eventos/Ev2/Eve2_s.lua" type="server" />
+	<map src="Eventos/Ev2/Eve2_Map.map" dimension="2"></map>
+	
+	<script src="Eventos/Ev3/Eve3_s.lua" type="server" />
+	<map src="Eventos/Ev3/Eve3_Map.map" dimension="2"></map>
+		
+	<script src="Eventos/Ev4/Eve4_s.lua" type="server" />
+	<map src="Eventos/Ev4/Eve4_Map.map" dimension="2"></map>
+			
+	<script src="Eventos/Ev5/Eve5_s.lua" type="server" />
+	<map src="Eventos/Ev5/Eve5_Map.map" dimension="2"></map>
+	
+	<script src="Eventos/Ev6/Eve6_s.lua" type="server" />
+	
+	<script src="Eventos/Ev7/Eve7_s.lua" type="server" />
+	
+	<script src="Eventos/Ev8/Eve8_s.lua" type="server" />
+	
+	<script src="Eventos/Ev9/Eve9_s.lua" type="server" />
+	
+	<script src="Eventos/Ev10/Eve10_s.lua" type="server" />
+	
+	<script src="Eventos/Ev11/Eve11_s.lua" type="server" />
+	<map src="Eventos/Ev11/Eve11_Map.map" dimension="2"></map>	
+	
+	<script src="Eventos/Ev12/Eve12_s.lua" type="server" />
+	<map src="Eventos/Ev12/Eve12_Map.map" dimension="2"></map>		
+
+	
+		
+	<export function="isPlayerInEvent"  />
+	<export function="getEventInfo"  />
+</meta>

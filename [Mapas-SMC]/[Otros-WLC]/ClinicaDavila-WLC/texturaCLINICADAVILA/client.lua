@@ -1,0 +1,23 @@
+﻿txd_hospital = engineLoadTXD ( "texturaCLINICADAVILA/hospital.txd" )
+engineImportTXD ( txd_hospital, 5708 )
+col_hospital = engineLoadCOL ( "texturaCLINICADAVILA/hospital.col" )
+engineReplaceCOL ( col_hospital, 5708 )
+dff_hospital = engineLoadDFF ( "texturaCLINICADAVILA/hospital.dff" )
+engineReplaceModel ( dff_hospital, 5708 )
+engineSetModelLODDistance(5708, 200)
+
+txd_quarto1 = engineLoadTXD ( "texturaCLINICADAVILA/quarto1.txd" )
+engineImportTXD ( txd_quarto1, 2349 )
+col_quarto1 = engineLoadCOL ( "texturaCLINICADAVILA/quarto1.col" )
+engineReplaceCOL ( col_quarto1, 2349 )
+dff_quarto1 = engineLoadDFF ( "texturaCLINICADAVILA/quarto1.dff" )
+engineReplaceModel ( dff_quarto1, 2349 )
+engineSetModelLODDistance(2349, 200)
+
+txd_puerta1 = engineLoadTXD ( "texturaCLINICADAVILA/cunts_gunclub.txd" )
+engineImportTXD ( txd_puerta1, 18553 )
+engineSetModelLODDistance(18553, 200)
+
+txd_concreto = engineLoadTXD ( "texturaCLINICADAVILA/a51vntcvx.txd" )
+engineImportTXD ( txd_concreto, 3117 )
+engineSetModelLODDistance(3117, 200)

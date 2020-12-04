@@ -1,0 +1,10 @@
+<meta>
+	<info author="Arshin - Zeta" name="CoronavirusChile" version="1.0.0" type="script"/>
+
+	<script src="Corona_S.lua" type="server" />
+	<script src="Corona_C.lua" type="client" cache="false" />
+	
+	<file src="Data/Background.png" />
+	<file src="Data/Click.png" />
+	<file src="Data/Font.ttf" />
+</meta>
