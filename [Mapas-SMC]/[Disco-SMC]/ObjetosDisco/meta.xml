@@ -1,0 +1,38 @@
+<meta>
+<info author="Zeta" name="ObjetosDisco-WLC" version="1.0" type="script"/>
+
+	<script src="client.lua" type="client"/>
+	<file src="13.txd" type="client"/>
+	<file src="13.dff" type="client"/>
+	<file src="13.col" type="client"/>
+	<file src="14.txd" type="client"/>
+	<file src="14.dff" type="client"/>
+	<file src="14.col" type="client"/>
+	<file src="15.dff" type="client"/>
+	<file src="15.col" type="client"/>
+	<file src="16.dff" type="client"/>
+	<file src="16.txd" type="client"/>
+	<file src="16.col" type="client"/>
+	<file src="17.dff" type="client"/>
+	<file src="17.col" type="client"/>
+	<file src="18.dff" type="client"/>
+	<file src="18.col" type="client"/>
+	<file src="18.txd" type="client"/>
+	<file src="19.dff" type="client"/>
+	<file src="19.col" type="client"/>
+	<file src="20.dff" type="client"/>
+	<file src="20.col" type="client"/>
+	<file src="21.dff" type="client"/>
+	<file src="21.col" type="client"/>
+	<file src="22.dff" type="client"/>
+	<file src="22.col" type="client"/>
+	<file src="23.dff" type="client"/>
+	<file src="23.col" type="client"/>
+	<file src="24.dff" type="client"/>
+	<file src="24.col" type="client"/>
+	<file src="25.dff" type="client"/>
+	<file src="25.col" type="client"/>
+	<file src="26.dff" type="client"/>
+	<file src="26.col" type="client"/>
+	
+</meta>

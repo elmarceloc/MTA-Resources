@@ -1,0 +1,6 @@
+<meta>
+<info author="Zeta" name="BorrarDisco-WLC" version="1.0" type="script"/>
+
+	<script src="borrar_s.lua" type="server" />
+	
+</meta>

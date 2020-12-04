@@ -1,7 +1,0 @@
-col_elevador = engineLoadCOL ( "TallerMecanico/objectos/elevador.col" )
-engineReplaceCOL ( col_elevador, 1580 )
-txd_elevador = engineLoadTXD ( "TallerMecanico/objectos/elevador.txd" )
-engineImportTXD ( txd_elevador, 1580 )
-dff_elevador = engineLoadDFF ( "TallerMecanico/objectos/elevador.dff" )
-engineReplaceModel ( dff_elevador, 1580 )
-engineSetModelLODDistance(1580, 50)

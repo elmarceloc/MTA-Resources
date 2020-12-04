@@ -1,0 +1,14 @@
+<meta>
+<info author="Zeta" name="tpDisco-WLC" version="1.0" type="script"/>
+
+	<script src="interiorexp.lua" type="server" />
+	<script src="interiors_client.lua" type="client" />
+	<script src="client_anim.lua" type="client" />
+	<map src="interiors.map" />
+
+	<export function="getInteriorMarker" type="server" />
+	<export function="getInteriorName" type="server" />
+	<export function="getInteriorMarker" type="client" />
+	<export function="getInteriorName" type="client" />
+	
+</meta>

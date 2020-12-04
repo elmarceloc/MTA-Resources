@@ -1,6 +1,10 @@
 <catalog type="vehicle">
     
 	<group name="VEHICULOS CHILENOS">
+		<group name="NAVIDAD">
+			<vehicle id="573" name="Camion Navideño" />
+			<vehicle id="460" name="Trineo" />
+		</group>
 		<group name="ESPECIALES">
 			<vehicle id="508" name="Furgon Escolar (Blindado)" />
 		</group>
@@ -33,7 +37,6 @@
 			<vehicle id="487" name="Helicóptero Naval" />
 			<vehicle id="512" name="Tucano Ejército" />
 			<vehicle id="548" name="Helicóptero Chinook" />
-			<vehicle id="593" name="TwinOtter FACH" />
 		</group>
 		<group name="SERVICIOS Y EMERGENCIA">
 		    <vehicle id="528" name="Aston Martin Virage (PDI)" />
@@ -136,6 +139,7 @@
 			<vehicle id="519" name="Shamal" />
 			<vehicle id="460" name="Skimmer" />
 			<vehicle id="513" name="Stuntplane" />
+			<vehicle id="593" name="Dodo" />
 		</group>
 	</group>
 	<group name="Motos y Cletas">
@@ -194,7 +198,6 @@
 			<vehicle id="578" name="DFT-30" />
 			<vehicle id="486" name="Dozer" />
 			<!-- <vehicle id="406" name="Dumper" /> -->
-			<vehicle id="573" name="Dune" />
 			<vehicle id="455" name="Flatbed" />
 			<vehicle id="530" name="Forklift" />
 			<vehicle id="403" name="Linerunner" />

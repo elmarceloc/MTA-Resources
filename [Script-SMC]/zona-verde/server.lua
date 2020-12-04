@@ -1,14 +1,15 @@
 -- Format is: {x = 0, y = 0, z = 0, width = 0, depth = 0, height = 0},
 local greenzones = {
-	{x = 2448, y = -1705, z = 13, width = 100, depth = 100, height = 30}, -- 1
-	{x = 1125, y = -2077, z = 69, width = 100, depth = 100, height = 30}, -- 2
-	{x = 589, y = -1405, z = 13, width = 100, depth = 100, height = 30}, -- 3
-	{x = 1992, y = -1453, z = 13, width = 100, depth = 100, height = 30}, -- 4
-	{x = -2100.48, y = 237.17, z = -60, width = 300, depth = 300, height = 80}, -- 4
-	{x = -10000, y = -10000, z = -100, width = 10000, depth = 10000, height = 500}
+	{x = 2448, y = -1705, z = 13, width = 100, depth = 100, height = 30, dim = 0}, -- 1
+	{x = 1125, y = -2077, z = 69, width = 100, depth = 100, height = 30, dim = 0}, -- 2
+	{x = 589, y = -1405, z = 13, width = 100, depth = 100, height = 30, dim = 0}, -- 3
+	{x = 1992, y = -1453, z = 13, width = 100, depth = 100, height = 30, dim = 0}, -- 4
+	{x = -2100.48, y = 237.17, z = -60, width = 300, depth = 300, height = 80, dim = 0}, -- 4
+
+	{x = 1845, y = 1786 , z = -50, width = 233, depth = 271, height = 100, dim = 6}, -- 1
+
 }
 
--- Initialize all zones on resource start
 local z = {}
 function initGreenzones()
 	if greenzones and #greenzones ~= 0 then
@@ -16,17 +17,24 @@ function initGreenzones()
 			if v then
 				if v.x and v.y and v.z and v.width and v.depth and v.height then
 					local c = createColCuboid(v.x, v.y, v.z, v.width, v.depth, v.height)
+					setElementDimension(c,v.dim)
 					--local rarea = createRadarArea(v.x, v.y, v.width, v.depth, 0, 255, 0, 150)
-					setElementParent(rarea, c)
+					--setElementParent(rarea, c)
 					if c then
 						z[c] = true
 
 						for _, p in ipairs(getElementsWithinColShape(c, "player")) do
-							setElementData(p, "greenzone", true)
+							outputChatBox('in')
+							if getElementDimension(p) == v.dim then
+								setElementData(p, "greenzone", true)
+							end
 						end
 
-						for _, v in ipairs(getElementsWithinColShape(c, "vehicle")) do
-							setElementData(v, "greenzoneveh", true)
+						for _, veh in ipairs(getElementsWithinColShape(c, "vehicle")) do
+							if getElementDimension(veh) == v.dim then
+								setElementData(veh, "greenzoneveh", true)
+							end
+
 						end
 
 						addEventHandler("onElementDestroy", c,
@@ -38,8 +46,8 @@ function initGreenzones()
 						)
 
 						addEventHandler("onColShapeHit", c,
-							function(h)
-								if h and isElement(h) and getElementType(h) == "player" then
+							function(h,d)
+								if h and isElement(h) and getElementType(h) == "player" and d then
 									if getElementData(h, "colShapeFix_OUT") then
 										setElementData(h, "colShapeFix_OUT", false)
 										return
@@ -63,16 +71,16 @@ function initGreenzones()
 						)
 
 						addEventHandler("onColShapeHit", c,
-							function(h)
-								if h and isElement(h) and getElementType(h) == "vehicle" then
+							function(h,d)
+								if h and isElement(h) and getElementType(h) == "vehicle" and d then --and d == getElementDimension('dim') 
 									setElementData(h, "greenzoneveh", true)
 								end
 							end
 						)
 
 						addEventHandler("onColShapeLeave", c,
-							function(h)
-								if h and isElement(h) and getElementType(h) == "player" then
+							function(h,d)
+								if h and isElement(h) and getElementType(h) == "player" and d then
 									if getElementData(h, "colShapeFix_IN") then
 										setElementData(h, "colShapeFix_IN", false)
 										return
@@ -94,8 +102,8 @@ function initGreenzones()
 						)
 
 						addEventHandler("onColShapeLeave", c,
-							function(h)
-								if h and isElement(h) and getElementType(h) == "vehicle" then
+							function(h,d)
+								if h and isElement(h) and getElementType(h) == "vehicle" and d then
 									setTimer(setElementData, 350, 1, h, "greenzoneveh", false)
 								end
 							end
@@ -107,7 +115,7 @@ function initGreenzones()
 		end
 	end
 end
-addEventHandler("onResourceStart", resourceRoot, initGreenzones)
+addEventHandler("onResourceStart", getResourceRootElement(getThisResource()), initGreenzones)
 
 function resetGreenzoneData()
 	for _, p in ipairs(getElementsByType("player")) do
@@ -116,4 +124,4 @@ function resetGreenzoneData()
 		end
 	end
 end
-addEventHandler("onResourceStop", resourceRoot, resetGreenzoneData)
+addEventHandler("onResourceStop", getResourceRootElement(getThisResource()), resetGreenzoneData)

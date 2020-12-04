@@ -1,6 +1,6 @@
 <map>
 <interiorEntry	id="casino1"	posX="2018.13318"	posY="1913.05603"	posZ="12.34938"	rotation="0"	dimension="0"	interior="0"	/>
-<interiorReturn	refid="casino1"	posX="2012.91125"	posY="1969.61670"	posZ="-22.32165"	rotation="0"	interior="0"	dimension="0"	/>
+<interiorReturn	refid="casino1"	posX="2012.91125"	posY="1969.61670"	posZ="-22.32165"	rotation="0"	interior="0"	dimension="6"	/>
 <interiorEntry	id="casino2"	posX="2018.09229"	posY="1919.80115"	posZ="12.34938"	rotation="0"	dimension="0"	interior="0"	/>
-<interiorReturn	refid="casino2"	posX="2009.59802"	posY="1969.56677"	posZ="-22.33710"	rotation="0"	interior="0"	dimension="0"	/>
+<interiorReturn	refid="casino2"	posX="2009.59802"	posY="1969.56677"	posZ="-22.33710"	rotation="0"	interior="0"	dimension="6"	/>
 </map>

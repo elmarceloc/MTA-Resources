@@ -1,0 +1,30 @@
+<meta>  
+<download_priority_group>1</download_priority_group>	
+    <info type="map" name="[MPG]CJ-Natal-[NATURE]" author="+Monster | MrPointGamer" version="1.0.0" description="Por: www.youtube.com/c/MrPointGamer"></info>
+    <script src="mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="mapEditorScriptingExtension_c.lua" type="client" validate="false"></script> <map src="[MPG]CJ-Natal-[NATURE].map" dimension="0"></map>  
+	<script type="client" src="MPG_C2.lua" />
+		<script type="client" src="MPG_C.lua" />
+			<script type="server" src="MPG_S.lua" />
+<file src='MPG_OBJ/Light.txd' type='client' />  
+<file src='MPG_OBJ/Light.dff' type='client' />  
+<file src='MPG_OBJ/Light2.txd' type='client' />  
+<file src='MPG_OBJ/Light2.dff' type='client' />  
+<file src='MPG_OBJ/Star.txd' type='client' />  
+<file src='MPG_OBJ/Star.dff' type='client' />  
+<file src='MPG_OBJ/Balao.txd' type='client' />  
+<file src='MPG_OBJ/Balao.dff' type='client' />  
+<file src='MPG_OBJ/Balao2.txd' type='client' />  
+<file src='MPG_OBJ/Balao2.dff' type='client' />  
+<file src='MPG_OBJ/Arvore.txd' type='client' />  
+<file src='MPG_OBJ/Arvore.dff' type='client' />  
+<file src='MPG_OBJ/Snow2.txd' type='client' />  
+<file src='MPG_OBJ/Snow2.dff' type='client' />  
+<file src='MPG_OBJ/Snow2.col' type='client' />
+<file src='MPG_OBJ/Snow.txd' type='client' />  
+<file src='MPG_OBJ/Snow.dff' type='client' />  
+<file src='MPG_OBJ/Snow.col' type='client' />  
+<file src='MPG_OBJ/pierb_law2.txd' type='client' />  
+<file src='MPG_OBJ/ferris01_law2.dff' type='client' />  
+<file src='MPG_OBJ/ferris01tr_law2.dff' type='client' />    
+</meta>

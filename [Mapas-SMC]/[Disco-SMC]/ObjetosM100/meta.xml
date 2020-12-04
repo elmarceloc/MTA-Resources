@@ -1,0 +1,14 @@
+<meta>
+<info author="Zeta" name="ObjetosM100-WLC" version="1.0" type="script"/>
+
+	<script src="client.lua" type="client" />
+	<file src="m100.col" />
+    <file src="m100.txd" />
+    <file src="m100.dff" />
+	
+	<file src="blondie.col" />
+    <file src="blondie.txd" />
+    <file src="blondie.dff" />
+
+	
+</meta>

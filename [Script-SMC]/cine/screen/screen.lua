@@ -1,9 +1,7 @@
 local models = {
 	{filename = "screen", id = 3944},
-	{filename = "screen_curved", id = 2102},
+	{filename = "screen_curved", id = 2054},
 }
-
-engineSetModelLODDistance(2102, 250)
 
 function loadModels()
 	local txd = engineLoadTXD("screen/screen.txd")

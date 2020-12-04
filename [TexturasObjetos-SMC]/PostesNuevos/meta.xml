@@ -1,0 +1,15 @@
+<meta>  
+<info author='+Monster | MrPointGamer' description='[MPG]LampPostNatal' version='1.0' type='objetos' />  
+<script src='[MPG]_C.lua' type='client' />  
+<file src='Gay_lamppost.dff' type='client' />  
+<file src='gay_telgrphpole.dff' type='client' />  
+<file src='lampost_coast.dff' type='client' />  
+<file src='lamppost1.dff' type='client' />  
+<file src='lamppost2.dff' type='client' /> 
+<file src='lamppost3.dff' type='client' /> 
+<file src='mlamppost.dff' type='client' /> 
+<file src='telgrphpole02.dff' type='client' /> 
+<file src='telgrphpoleall.dff' type='client' /> 
+<file src='vegaslampost2.dff' type='client' /> 
+<file src='vgntelepole1.dff' type='client' /> 
+</meta>

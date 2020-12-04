@@ -239,22 +239,8 @@ function getScreen()
 	return Screen
 end
 
-function cine () 
-	showCursor(true)
-	addEventHandler ( "onClientCursorMove" , root , onCursorMove )
-	addEventHandler("onClientClick", root, mousebind )
-	addEventHandler("onClientKey", root, onKey)
-end 
-addCommandHandler ( "cine" , cine )
 
 
-function cine () 
-	showCursor(false)
-	removeEventHandler ( "onClientCursorMove" , root , onCursorMove )
-	removeEventHandler("onClientClick", root, mousebind )
-	removeEventHandler("onClientKey", root, onKey)
-end 
-addCommandHandler ( "nocine" , cine )
 
 
 function onCursorMove ( relativeX , relativeY , absoluteX , absoluteY ) 

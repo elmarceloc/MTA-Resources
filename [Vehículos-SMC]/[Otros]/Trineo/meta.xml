@@ -1,0 +1,6 @@
+<meta>
+    <info type="script" name="trineo" author="+Monster [MrPointGamer]" version="1.0.0"></info>
+	<file src="trineo.txd" />
+	<file src="trineo.dff" />
+	<script type="client" src="replace.lua" />
+</meta>

@@ -14,10 +14,24 @@ COMANDOS DEL SERVIDOR:
 
 * /tuning: Panel de Tunnig (SOLO FUNCIONA DENTRO DE UN VEHICULO)
 
-* /graffiti: Panel de Graffitis
+* /graffiti: Panel de Graffitis (Desactivado por el momento)
+
+* /mascota: Crear mascota (Solo para VIP)
+
+* /drift1 /drift2 /drift3: Teletransporta a las pistas de Drift
+
+* /laberinto1: Teletransporta a los minijuegos de laberinto
 
 
 ATAJOS/TECLAS DEL SERVIDOR:
+
+* T: Chat Local (solo lo ven quienes estén cercano a usted)
+
+* Y: Chat de Clan
+
+* U: Chat Global (lo vé todo el servidor, QUEDA PROHIBIDO INSULTAR EN ESTE CHAT)
+
+* I: Chat de Rol (Este chat indica acciones que realiza un jugador en roleo)
 
 * F1: Activa un panel con opciones variadas para utilizar en el servidor
 
@@ -25,19 +39,33 @@ ATAJOS/TECLAS DEL SERVIDOR:
 
 * F3: Activa un panel de modificacion para tu vehiculo (SOLO SE PUEDE ACTIVAR DENTRO DE UN VEHICULO)
 
-* F5: Panel de Animaciones (PRONTO)
-
-* F6: Esconde HUDS (radar y barra de vida) de la pantalla
+* F6: Panel de Mascotas (Solo para VIP)
 
 * F7: Activa un panel con variados estilos al caminar
 
 * F8: Consola del servidor
 
-* Número 1: Activa una rueda con animaciones y sonidos unicos para skins (Funciona solo con algunas)
+* F9: Chat Privado
+
+* F10: Panel de Información
+
+* F11: Mapa Global
+
+* F12: Capturas de Pantalla
+
+* Número 1: Activa una rueda con animaciones y sonidos unicos para skins (Funciona solo con algunas skins)
+
+* Número 2: Panel de Emojis
+
+* Número 3: Panel de Animaciones/Bailes
+
+* Número 4 y 5: Panel de Animaciones/Bailes VIP
 
 * X: Te permite quedarte pegado al techo de un vehiculo, se desactiva con la misma tecla (Solo es posible usarlo al estar en el techo de cualquier vehiculo)
 
 * K: Control crucero, le permite mantener una determinada velocidad (se desactiva con la misma tecla)
+
+* Z: Activar/Desactivar micrófono, para hablar por voz
 
 * Shift + Flecha Izq/Flecha Der: Regula el volumen de la radio (SOLO FUNCIONA DENTRO DE UN VEHICULO)
 

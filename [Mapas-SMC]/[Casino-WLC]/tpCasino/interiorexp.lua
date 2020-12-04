@@ -13,6 +13,10 @@ addEventHandler ( "onResourceStart", getRootElement(),
 function ( resource )
 	interiorLoadElements ( getResourceRootElement(resource), resource )
 	interiorCreateMarkers ( resource )
+
+	local casinoblip = createBlip(2024.84033, 1917.89502, 12.34938, 52)
+	setBlipVisibleDistance(casinoblip,9999)
+
 end )
 
 addEventHandler ( "onResourceStop", getRootElement(),
