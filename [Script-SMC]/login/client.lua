@@ -125,28 +125,3 @@ function doregister(login, password,password2)
 end
 addEvent("doregister", true)
 addEventHandler("doregister", root, doregister)
-
-addEvent("putusername", true)
-addEventHandler("putusername", root, 
-	function(username)
-	--	executeBrowserJavascript(theBrowser, 'document.getElementById("login").value = "' .. username ..'"')
-		--executeBrowserJavascript(theBrowser, 'document.getElementById("login").value = "'.. username ..'"')
-		--document.getElementById("login").value = "aaaaaaaaa"
-
-	end
-)
-
-function setusername()
-	triggerServerEvent("getusername", resourceRoot, localPlayer)
-
-
---[[
-	setDevelopmentMode(true, true) -- Enable client dev mode
-	toggleBrowserDevTools(theBrowser, true) -- Toggle the CEF dev console
-
-	executeBrowserJavascript(theBrowser, 'document.getElementById("login").value = "ssssssssssssssssss"')
-	]]--
-	--triggerServerEvent("login", resourceRoot, login, password)
-end
-addEvent("setusername", true)
-addEventHandler("setusername", root, setusername)
