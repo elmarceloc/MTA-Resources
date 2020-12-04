@@ -99,7 +99,7 @@ function drawKillText()
 
     left = WASTED_TEXT_X * sX
     top = WASTED_TEXT_Y * sY
-    dxDrawText("wasted", left, top, left, top, WASTED_TEXT_COLOR,
+    dxDrawText("funado", left, top, left, top, WASTED_TEXT_COLOR,
         WASTED_TEXT_SIZE, WASTED_TEXT_FONT, WASTED_TEXT_ALIGN_X,
         WASTED_TEXT_ALIGN_Y, WASTED_TEXT_CLIP, WASTED_TEXT_WRAP,
         WASTED_TEXT_ONTOP)
