@@ -1,0 +1,8 @@
+<catalog type="object">
+
+	<group name="Mascaras">
+	
+		<object name="Aleron" id="1000" bone="1" offsetx="0" offsety="0" offsetz="0" rotoffsetx="0" rotoffsety="0" rotoffsetz="0"/>
+
+	</group>
+</catalog>

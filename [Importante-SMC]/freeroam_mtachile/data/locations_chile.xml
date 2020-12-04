@@ -1,0 +1,14 @@
+<catalog type="location">
+	<group name="Santiago">
+		<location file="1" name="Torre Entel" x="1325.79" y="-1451.57" z="13.51"/>
+		<location file="2" name="Playa LS" x="539.242" y="-1882.24" z="3.638"/>
+		<location file="3" name="La Moneda" x="1209.75" y="-1359.056" z="13.35"/>
+		<location file="4" name="Grove Street" x="2496.1" y="-1666.79" z="13.34"/>
+		<location file="5" name="Country General Hospital" x="2010.45" y="-1443.57" z="13.84"/>
+		<location file="6" name="Costanera Center" x="1588.844" y="-1322.28" z="17.56"/>
+		<location file="7" name="Comisaria" x="1536.81" y="-1638.54" z="13.54"/>
+		<location file="8" name="Aeropuerto" x="1930.11" y="-2386.25" z="13.54"/>
+	<!--	<location file="9" name="Cine" x="-2026.15" y="505" z="37.17"/> -->
+	</group>
+	
+</catalog>

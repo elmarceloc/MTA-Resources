@@ -1,0 +1,97 @@
+<root>
+  <skins>
+	<skin id="72" name="dylantero">
+		<sound block="MISC" anim="plyr_shkhead" duration="1500" file="qmal" />
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="600" file="viejas" />
+	</skin>
+	<skin id="45" name="arturo">
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="5800" file="arturo1" />
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="1800" file="arturo2" />
+	</skin>
+	<skin id="14" name="auronplay">
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="5800" file="auronplay1" />
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="1800" file="auronplay2" />
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="1800" file="auronplay3" />
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="1800" file="auronplay4" />
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="1800" file="auronplay5" />
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="1800" file="auronplay6" />
+	</skin>
+	<skin id="25" name="donramon">
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="5800" file="donramon1" />
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="1800" file="donramon2" />
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="1800" file="donramon3" />
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="1800" file="donramon4" />
+	</skin>
+
+	<skin id="59" name="karoldance">
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="5800" file="karoldance1" />
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="1800" file="karoldance2" />
+	</skin>
+
+	<skin id="33" name="tioemilio">
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="5800" file="tioemilio1" />
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="1800" file="tioemilio2" />
+	</skin>
+
+	<skin id="57" name="donfrancisco">
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="5800" file="donfrancisco1" />
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="1800" file="donfrancisco2" />
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="1800" file="donfrancisco3" />
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="1800" file="donfrancisco4" />
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="1800" file="donfrancisco5" />
+	</skin>
+
+	<skin id="58" name="pinochet">
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="5800" file="pinochet1" />
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="1800" file="pinochet2" />
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="1800" file="pinochet3" />
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="1800" file="pinochet4" />
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="1800" file="pinochet5" />
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="1800" file="pinochet6" />
+	</skin>
+
+	<skin id="15" name="balticaman">
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="5800" file="balticaman1" />
+	</skin>
+
+	<skin id="18" name="chtvnega">
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="5800" file="chtvnega1" />
+	</skin>
+
+	<skin id="23" name="drsimi">
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="5800" file="drsimi1" />
+	</skin>
+
+	<skin id="35" name="luisjara">
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="5800" file="luisjara1" />
+	</skin>
+
+	<skin id="46" name="nicogavilan">
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="5800" file="nicogavilan1" />
+	</skin>
+
+	
+	<skin id="37" name="pinera">
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="5800" file="pinera1" />
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="5800" file="pinera2" />
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="5800" file="pinera3" />
+	</skin>
+	<skin id="61" name="shrek">
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="5800" file="shrek1" />
+	</skin>
+	<skin id="43" name="tioaceite">
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="5800" file="tioaceite1" />
+	</skin>
+	<skin id="22" name="trump">
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="5800" file="trump1" />
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="5800" file="trump2" />
+	</skin>
+	<skin id="36" name="pancho">
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="2300" file="pancho_saavedra1" />
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="2000" file="pancho_saavedra2" />
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="2000" file="pancho_saavedra3" />
+		<sound block="GANGS" anim="prtial_gngtlkD" duration="1500" file="pancho_saavedra4" />
+	</skin>
+  </skins>
+
+</root>
