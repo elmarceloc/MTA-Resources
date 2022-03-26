@@ -1,7 +1,0 @@
-<meta>
-    <info name="Cleaning Cars" author="WASSIm." version="2.5.0" type="script" />
-    <script src="client.lua" type="client" />
-    <script src="server.lua" type="server" />
-    <file src="icon.png" />	
-    <file src="texture.fx" />
-</meta>

@@ -1,4 +1,0 @@
-<map edf:definitions="editor_main">
-    <object id="object (des_oilpipe_05) (1)" interior="0" alpha="255" doublesided="false" model="16532" scale="1" dimension="0" posX="1082.1" posY="-1477.6" posZ="33.9" rotX="0" rotY="0" rotZ="0"></object>
-    <object id="object (dam_genturbine05) (1)" interior="0" alpha="255" doublesided="false" model="16340" scale="1" dimension="0" posX="1056" posY="-1273.3" posZ="16" rotX="0" rotY="0" rotZ="0"></object>
-</map>
