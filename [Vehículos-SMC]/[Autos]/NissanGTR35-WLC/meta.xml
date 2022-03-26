@@ -1,8 +1,0 @@
-<meta>
- <info author = "Anonimo" description = "Nissan240SX-WLC" version = "1.0" type = "script" />
- 
- <script src = "client.lua" type = "client" />
- <file src = "alpha.txd" />
- <file src = "alpha.dff" />
- 
- </meta> 

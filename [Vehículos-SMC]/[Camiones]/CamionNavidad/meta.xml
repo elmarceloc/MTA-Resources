@@ -1,6 +1,0 @@
-<meta>
-	<info type="script" name="CamionNavideño" author="+Monster" version="1" />
-	<file src="camionnavidad.txd" />
-	<file src="camionnavidad.dff" />
-	<script type="client" src="replace.lua" />
-</meta>

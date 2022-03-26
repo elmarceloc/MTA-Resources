@@ -1,5 +1,0 @@
-<meta>
-	<info author="VSCode MTA:SA Lua" type="script" name="delorean" />
-	<script src="c_delorean.lua" type="client" cache="false" />
-	<script src="s_delorean.lua" type="server" />
-</meta>

@@ -1,8 +1,0 @@
-<meta>
-    <info author="Zeta - ModsMilitaresSA" name="CASA 212 FACH" version="1.0" type="script" />
-    
-    <file src="img/beagle.txd" />
-    <file src="img/beagle.dff" />
-	
-    <script src="client.lua" type="client" />
-</meta>

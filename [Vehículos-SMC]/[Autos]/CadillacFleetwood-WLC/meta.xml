@@ -1,8 +1,0 @@
-<meta>
- <info author = "Anonimo" description = "CadillacFleetwood-WLC" version = "1.0" type = "script" />
- 
- <script src = "client.lua" type = "client" />
- <file src = "cadillac.txd" />
- <file src = "cadillac.dff" />
- 
- </meta> 
