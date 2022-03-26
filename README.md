@@ -4,10 +4,10 @@ My personal work for,at a time, the most played mta sa server in Latam, a lot of
 
 -Technologys:
 
--Lua
--sqlite 3
--HTML/CSS
--Javascript
--Jquery
--Bootstrap 4
--XML
+1. Lua
+2. sqlite 3
+3. HTML/CSS
+4. Javascript
+5. Jquery
+6. Bootstrap 4
+7. XML
